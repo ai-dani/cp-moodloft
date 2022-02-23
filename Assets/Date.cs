@@ -6,13 +6,11 @@ public class Date : MonoBehaviour
 {
     //[SerializeField] TMPro.TMP_Text dateText;
     public TMPro.TMP_Text[] dayOfWeekText; //drag and drop day of the week (7 slots for M-Sun)
-    private TMPro.TMP_Text currentDayText;
-    private List<TMPro.TMP_Text> futureDayText;
+    public TMPro.TMP_Text currentDayText;
+    public List<TMPro.TMP_Text> futureDayText;
 
-    void Start()
+    void Awake()
     {
-        // Debug.Log(System.DateTime.Today.AddDays(-1).Date.ToString("MMMM dd, yyyy"));
-        // dateText.text = System.DateTime.UtcNow.ToLocalTime().ToString("MMMM dd, yyyy");
         futureDayText = new List<TMPro.TMP_Text>();
         PopulateDatesForDayOfWeek();
     }
