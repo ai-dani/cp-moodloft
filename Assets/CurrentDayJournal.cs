@@ -26,7 +26,12 @@ public class CurrentDayJournal : MonoBehaviour
     }
 
     void OpenCurrentDayPanel(){
+        for(int childIndex = 0; childIndex < currentDayPanel.transform.parent.childCount; childIndex++){
+            GameObject currentChild = currentDayPanel.transform.parent.GetChild(childIndex).gameObject;
+            currentChild.SetActive(false); //Error checks - in case duplicate pages pop up at once...
+        }
         currentDayPanel.SetActive(true);
+
     }
 
     //still working on this extra function - should grey out future date
