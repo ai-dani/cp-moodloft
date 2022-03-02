@@ -32,7 +32,7 @@ private void Start()
 
     private IEnumerator StepThroughD(DialougeObject dialougeObject)
     {
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(1.5f);
         foreach (string dialogue in dialougeObject.Dialogue)
         {
             yield return effect.Run(dialogue, textLabel);

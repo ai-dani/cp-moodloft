@@ -16,7 +16,7 @@ public class CurrentDayJournal : MonoBehaviour
     {
         futureDayPanel=new List<GameObject>();
         date = FindObjectOfType<Date>();
-        openButton = FindObjectOfType<Button>();
+        //openButton = FindObjectOfType<Button>();
         openButton.onClick.AddListener(OpenCurrentDayPanel);
         openButton.onClick.AddListener(CoverFutureDayPanel);
         currentDayPanel = date.ReturnCurrentDayTMPText().gameObject.transform.parent.gameObject;
