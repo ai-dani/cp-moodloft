@@ -102,6 +102,9 @@ public class DayNightCycle : MonoBehaviour
             clockButton.GetComponent<Image>().sprite = nightClock;
             waterButton.GetComponent<Image>().sprite = nightWater;
             bedButton.GetComponent<Image>().sprite = nightBed;
+
+            petNight.SetActive(true);
+            petDay.SetActive(false);
         }
         else if (Input.GetKeyDown("d"))
         {
