@@ -1896,11 +1896,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 377808463618291078, guid: a56fd0b1fb605f3479b763632682fb5b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -93.00006
+      value: -93.00012
       objectReference: {fileID: 0}
     - target: {fileID: 377808463618291078, guid: a56fd0b1fb605f3479b763632682fb5b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -6.100006
+      value: -6.1000366
       objectReference: {fileID: 0}
     - target: {fileID: 377808463618291078, guid: a56fd0b1fb605f3479b763632682fb5b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2285,7 +2285,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2097544798}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa478ae58dfa7e249be63828940e6199, type: 3}
+  m_Script: {fileID: 11500000, guid: f64f632ec80034a42b38797d80e04f9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   weeks:
