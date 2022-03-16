@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class StickerController : MonoBehaviour
 {
+    public GameObject[] stickerPlacers;
+    public GameObject stickerPlacerDemo;
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+    public GameObject GetStickerPlacerPanel(){
+        return stickerPlacerDemo;
     }
 }

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7951369891776822635}
   - component: {fileID: 2241145599890161303}
   - component: {fileID: 2492330672950133782}
+  - component: {fileID: 9039473649073707786}
   m_Layer: 5
   m_Name: stickerImg (4)
   m_TagString: Untagged
@@ -120,6 +121,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &9039473649073707786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104197360901688333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470067680937041
 GameObject:
   m_ObjectHideFlags: 0
@@ -252,6 +268,7 @@ GameObject:
   - component: {fileID: 173470067748104792}
   - component: {fileID: 173470067748104799}
   - component: {fileID: 173470067748104798}
+  - component: {fileID: 2368929996618226407}
   m_Layer: 5
   m_Name: stickerImg (5)
   m_TagString: Untagged
@@ -360,6 +377,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2368929996618226407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470067748104796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470067845164258
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,6 +983,7 @@ GameObject:
   - component: {fileID: 173470068015239726}
   - component: {fileID: 173470068015239725}
   - component: {fileID: 173470068015239727}
+  - component: {fileID: 1959205347276114733}
   m_Layer: 5
   m_Name: stickerImg (8)
   m_TagString: Untagged
@@ -1059,6 +1092,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1959205347276114733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470068015240147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470068060104600
 GameObject:
   m_ObjectHideFlags: 0
@@ -1071,6 +1119,7 @@ GameObject:
   - component: {fileID: 173470068060104596}
   - component: {fileID: 173470068060104603}
   - component: {fileID: 173470068060104602}
+  - component: {fileID: 2497707144297011815}
   m_Layer: 5
   m_Name: stickerImg (4)
   m_TagString: Untagged
@@ -1179,6 +1228,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2497707144297011815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470068060104600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470068065809741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1446,6 +1510,7 @@ GameObject:
   - component: {fileID: 173470068131913878}
   - component: {fileID: 173470068131913877}
   - component: {fileID: 173470068131913876}
+  - component: {fileID: 9053549925264406758}
   m_Layer: 5
   m_Name: stickerImg (9)
   m_TagString: Untagged
@@ -1554,6 +1619,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &9053549925264406758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470068131913882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470068158107492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1566,6 +1646,7 @@ GameObject:
   - component: {fileID: 173470068158107488}
   - component: {fileID: 173470068158107495}
   - component: {fileID: 173470068158107494}
+  - component: {fileID: 1004029181841989760}
   m_Layer: 5
   m_Name: stickerImg (6)
   m_TagString: Untagged
@@ -1674,6 +1755,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1004029181841989760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470068158107492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470068178758737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2042,6 +2138,7 @@ GameObject:
   - component: {fileID: 173470068329265017}
   - component: {fileID: 173470068329265016}
   - component: {fileID: 173470068329265023}
+  - component: {fileID: 3396561768029579769}
   m_Layer: 5
   m_Name: stickerImg (2)
   m_TagString: Untagged
@@ -2150,6 +2247,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3396561768029579769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470068329265021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470068426102141
 GameObject:
   m_ObjectHideFlags: 0
@@ -2162,6 +2274,7 @@ GameObject:
   - component: {fileID: 173470068426102136}
   - component: {fileID: 173470068426102143}
   - component: {fileID: 173470068426102137}
+  - component: {fileID: 2023365058318799287}
   m_Layer: 5
   m_Name: stickerImg (2)
   m_TagString: Untagged
@@ -2270,6 +2383,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2023365058318799287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470068426102141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470068445698365
 GameObject:
   m_ObjectHideFlags: 0
@@ -2282,6 +2410,7 @@ GameObject:
   - component: {fileID: 173470068445698361}
   - component: {fileID: 173470068445698360}
   - component: {fileID: 173470068445698367}
+  - component: {fileID: 5402968588295623187}
   m_Layer: 5
   m_Name: stickerImg (1)
   m_TagString: Untagged
@@ -2390,6 +2519,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5402968588295623187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470068445698365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470068622627535
 GameObject:
   m_ObjectHideFlags: 0
@@ -2402,6 +2546,7 @@ GameObject:
   - component: {fileID: 173470068622627531}
   - component: {fileID: 173470068622627530}
   - component: {fileID: 173470068622627529}
+  - component: {fileID: 228592095317048009}
   m_Layer: 5
   m_Name: stickerImg (8)
   m_TagString: Untagged
@@ -2510,6 +2655,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &228592095317048009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470068622627535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470068663061335
 GameObject:
   m_ObjectHideFlags: 0
@@ -2522,6 +2682,7 @@ GameObject:
   - component: {fileID: 173470068663061330}
   - component: {fileID: 173470068663061329}
   - component: {fileID: 173470068663061331}
+  - component: {fileID: 4153795634947644413}
   m_Layer: 5
   m_Name: stickerImg (7)
   m_TagString: Untagged
@@ -2630,6 +2791,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4153795634947644413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470068663061335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470068768206830
 GameObject:
   m_ObjectHideFlags: 0
@@ -2642,6 +2818,7 @@ GameObject:
   - component: {fileID: 173470068768206825}
   - component: {fileID: 173470068768206824}
   - component: {fileID: 173470068768206826}
+  - component: {fileID: 2179126749471514802}
   m_Layer: 5
   m_Name: stickerImg (9)
   m_TagString: Untagged
@@ -2750,6 +2927,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2179126749471514802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470068768206830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470068902114248
 GameObject:
   m_ObjectHideFlags: 0
@@ -3318,6 +3510,7 @@ GameObject:
   - component: {fileID: 173470069090717462}
   - component: {fileID: 173470069090717461}
   - component: {fileID: 173470069090717460}
+  - component: {fileID: 475841301310275698}
   m_Layer: 5
   m_Name: stickerImg (7)
   m_TagString: Untagged
@@ -3426,6 +3619,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &475841301310275698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470069090717466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470069093881837
 GameObject:
   m_ObjectHideFlags: 0
@@ -3570,6 +3778,7 @@ GameObject:
   - component: {fileID: 173470069107806150}
   - component: {fileID: 173470069107806149}
   - component: {fileID: 173470069107806148}
+  - component: {fileID: 4206747800520288067}
   m_Layer: 5
   m_Name: stickerImg (3)
   m_TagString: Untagged
@@ -3678,6 +3887,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4206747800520288067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470069107806154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470069151267292
 GameObject:
   m_ObjectHideFlags: 0
@@ -3690,6 +3914,7 @@ GameObject:
   - component: {fileID: 173470069151267295}
   - component: {fileID: 173470069151267294}
   - component: {fileID: 173470069151267288}
+  - component: {fileID: 7324811072422789064}
   m_Layer: 5
   m_Name: stickerImg (1)
   m_TagString: Untagged
@@ -3798,6 +4023,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &7324811072422789064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470069151267292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470069250393939
 GameObject:
   m_ObjectHideFlags: 0
@@ -3810,6 +4050,7 @@ GameObject:
   - component: {fileID: 173470069250394031}
   - component: {fileID: 173470069250394030}
   - component: {fileID: 173470069250394029}
+  - component: {fileID: 3896349144565383211}
   m_Layer: 5
   m_Name: stickerImg
   m_TagString: Untagged
@@ -3918,6 +4159,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3896349144565383211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470069250393939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470069288409568
 GameObject:
   m_ObjectHideFlags: 0
@@ -4159,6 +4415,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a43baee5828be04ca51a5fef3a4ecab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stickerPlacers: []
+  stickerPlacerDemo: {fileID: 0}
 --- !u!95 &493890709408621911
 Animator:
   serializedVersion: 3
@@ -4190,6 +4448,7 @@ GameObject:
   - component: {fileID: 173470069329594968}
   - component: {fileID: 173470069329594975}
   - component: {fileID: 173470069329594969}
+  - component: {fileID: 3516377147232930556}
   m_Layer: 5
   m_Name: stickerImg (5)
   m_TagString: Untagged
@@ -4298,6 +4557,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3516377147232930556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470069329594973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470069367948234
 GameObject:
   m_ObjectHideFlags: 0
@@ -4418,6 +4692,7 @@ GameObject:
   - component: {fileID: 173470069379685129}
   - component: {fileID: 173470069379685128}
   - component: {fileID: 173470069379685130}
+  - component: {fileID: 2625213886509294426}
   m_Layer: 5
   m_Name: stickerImg (6)
   m_TagString: Untagged
@@ -4526,6 +4801,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &2625213886509294426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470069379685134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470069430189701
 GameObject:
   m_ObjectHideFlags: 0
@@ -4659,6 +4949,7 @@ GameObject:
   - component: {fileID: 173470069549151727}
   - component: {fileID: 173470069549151726}
   - component: {fileID: 173470069549151720}
+  - component: {fileID: 8221999965892564149}
   m_Layer: 5
   m_Name: stickerImg (4)
   m_TagString: Untagged
@@ -4767,6 +5058,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8221999965892564149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470069549151724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470069643108506
 GameObject:
   m_ObjectHideFlags: 0
@@ -4779,6 +5085,7 @@ GameObject:
   - component: {fileID: 173470069643108501}
   - component: {fileID: 173470069643108500}
   - component: {fileID: 173470069643108502}
+  - component: {fileID: 6325480305602467080}
   m_Layer: 5
   m_Name: stickerImg
   m_TagString: Untagged
@@ -4887,6 +5194,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6325480305602467080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470069643108506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &173470069726186242
 GameObject:
   m_ObjectHideFlags: 0
@@ -5028,6 +5350,7 @@ GameObject:
   - component: {fileID: 173470069772662113}
   - component: {fileID: 173470069772662112}
   - component: {fileID: 173470069772662114}
+  - component: {fileID: 3663002643981075730}
   m_Layer: 5
   m_Name: stickerImg (3)
   m_TagString: Untagged
@@ -5136,6 +5459,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3663002643981075730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173470069772662118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &275386752877197076
 GameObject:
   m_ObjectHideFlags: 0
@@ -5238,6 +5576,7 @@ GameObject:
   - component: {fileID: 954777659978666727}
   - component: {fileID: 4540653739680725377}
   - component: {fileID: 6634663492120344772}
+  - component: {fileID: 3876528950476917215}
   m_Layer: 5
   m_Name: stickerImg (1)
   m_TagString: Untagged
@@ -5346,6 +5685,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3876528950476917215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432797245490187498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &496716869809824337
 GameObject:
   m_ObjectHideFlags: 0
@@ -5358,6 +5712,7 @@ GameObject:
   - component: {fileID: 8762320347087503718}
   - component: {fileID: 1132701081712835856}
   - component: {fileID: 4980231371234619647}
+  - component: {fileID: 5226736067796634962}
   m_Layer: 5
   m_Name: stickerImg (5)
   m_TagString: Untagged
@@ -5466,6 +5821,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5226736067796634962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496716869809824337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &808300506893428909
 GameObject:
   m_ObjectHideFlags: 0
@@ -5478,6 +5848,7 @@ GameObject:
   - component: {fileID: 8857410629732168762}
   - component: {fileID: 7757325173650400806}
   - component: {fileID: 1346298596254806203}
+  - component: {fileID: 4633590885353424152}
   m_Layer: 5
   m_Name: stickerImg (8)
   m_TagString: Untagged
@@ -5586,6 +5957,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4633590885353424152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808300506893428909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &898747264111118911
 GameObject:
   m_ObjectHideFlags: 0
@@ -5796,6 +6182,7 @@ GameObject:
   - component: {fileID: 7241457145627535211}
   - component: {fileID: 3495045929965704891}
   - component: {fileID: 7763258983071775818}
+  - component: {fileID: 9196669002175643091}
   m_Layer: 5
   m_Name: stickerImg (9)
   m_TagString: Untagged
@@ -5904,6 +6291,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &9196669002175643091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185452417449605597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &1264887392213906127
 GameObject:
   m_ObjectHideFlags: 0
@@ -6042,6 +6444,7 @@ GameObject:
   - component: {fileID: 5243036355039840463}
   - component: {fileID: 546515087034984889}
   - component: {fileID: 3098795789812259397}
+  - component: {fileID: 5312946844079738007}
   m_Layer: 5
   m_Name: stickerImg (4)
   m_TagString: Untagged
@@ -6150,6 +6553,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5312946844079738007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982957461566226016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &2130280002925431115
 GameObject:
   m_ObjectHideFlags: 0
@@ -6345,6 +6763,7 @@ GameObject:
   - component: {fileID: 4162547661362040215}
   - component: {fileID: 4662349609656826158}
   - component: {fileID: 1522739914240626276}
+  - component: {fileID: 8685266950698159114}
   m_Layer: 5
   m_Name: stickerImg
   m_TagString: Untagged
@@ -6453,6 +6872,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &8685266950698159114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2230989221551583782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &3753394833408078582
 GameObject:
   m_ObjectHideFlags: 0
@@ -6465,6 +6899,7 @@ GameObject:
   - component: {fileID: 6466034073412696824}
   - component: {fileID: 811272655708863373}
   - component: {fileID: 2090656942167767563}
+  - component: {fileID: 5945608795898700431}
   m_Layer: 5
   m_Name: stickerImg (3)
   m_TagString: Untagged
@@ -6573,6 +7008,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5945608795898700431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3753394833408078582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &4524290173538141847
 GameObject:
   m_ObjectHideFlags: 0
@@ -6750,6 +7200,7 @@ GameObject:
   - component: {fileID: 6753855729942160736}
   - component: {fileID: 2688815191147920143}
   - component: {fileID: 1592223035371260588}
+  - component: {fileID: 6666904478050229401}
   m_Layer: 5
   m_Name: stickerImg (7)
   m_TagString: Untagged
@@ -6858,6 +7309,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6666904478050229401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5399341969777912341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &5528311656202915363
 GameObject:
   m_ObjectHideFlags: 0
@@ -6870,6 +7336,7 @@ GameObject:
   - component: {fileID: 8518971670500867627}
   - component: {fileID: 67880105884172028}
   - component: {fileID: 266437006699140592}
+  - component: {fileID: 3798551281944873782}
   m_Layer: 5
   m_Name: stickerImg (6)
   m_TagString: Untagged
@@ -6978,6 +7445,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3798551281944873782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5528311656202915363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &6342139561437863907
 GameObject:
   m_ObjectHideFlags: 0
@@ -6990,6 +7472,7 @@ GameObject:
   - component: {fileID: 6642957026574242266}
   - component: {fileID: 4981309954252238078}
   - component: {fileID: 4254555754847456016}
+  - component: {fileID: 417223972930011066}
   m_Layer: 5
   m_Name: stickerImg (8)
   m_TagString: Untagged
@@ -7098,6 +7581,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &417223972930011066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342139561437863907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &6428664852899474781
 GameObject:
   m_ObjectHideFlags: 0
@@ -7218,6 +7716,7 @@ GameObject:
   - component: {fileID: 2850867009994146659}
   - component: {fileID: 1363998275449125398}
   - component: {fileID: 5752562349547747768}
+  - component: {fileID: 1194473842480938120}
   m_Layer: 5
   m_Name: stickerImg
   m_TagString: Untagged
@@ -7326,6 +7825,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1194473842480938120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6619950228800713917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &6667517158995139447
 GameObject:
   m_ObjectHideFlags: 0
@@ -7338,6 +7852,7 @@ GameObject:
   - component: {fileID: 4301433888295818998}
   - component: {fileID: 4782034185454401183}
   - component: {fileID: 7662440807476157003}
+  - component: {fileID: 4684035465725005758}
   m_Layer: 5
   m_Name: stickerImg (3)
   m_TagString: Untagged
@@ -7446,6 +7961,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4684035465725005758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6667517158995139447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &6946282038369000033
 GameObject:
   m_ObjectHideFlags: 0
@@ -7458,6 +7988,7 @@ GameObject:
   - component: {fileID: 2620444313075698880}
   - component: {fileID: 662858771977867831}
   - component: {fileID: 5650802023621233729}
+  - component: {fileID: 3311136672348300521}
   m_Layer: 5
   m_Name: stickerImg (5)
   m_TagString: Untagged
@@ -7566,6 +8097,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3311136672348300521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946282038369000033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &6980182309001268600
 GameObject:
   m_ObjectHideFlags: 0
@@ -7578,6 +8124,7 @@ GameObject:
   - component: {fileID: 7299276960074332964}
   - component: {fileID: 9107760644270853343}
   - component: {fileID: 660148135173926497}
+  - component: {fileID: 3701150552247870455}
   m_Layer: 5
   m_Name: stickerImg (9)
   m_TagString: Untagged
@@ -7686,6 +8233,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3701150552247870455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6980182309001268600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &7013747992904958414
 GameObject:
   m_ObjectHideFlags: 0
@@ -7770,6 +8332,7 @@ GameObject:
   - component: {fileID: 5473593968974551625}
   - component: {fileID: 7351733473154776565}
   - component: {fileID: 9067314196378992473}
+  - component: {fileID: 1486471804788486457}
   m_Layer: 5
   m_Name: stickerImg (2)
   m_TagString: Untagged
@@ -7878,6 +8441,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1486471804788486457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7930929404401014260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &8056523183368352254
 GameObject:
   m_ObjectHideFlags: 0
@@ -7926,6 +8504,7 @@ GameObject:
   - component: {fileID: 1812131694981383430}
   - component: {fileID: 5423850886007330409}
   - component: {fileID: 7590207205924393636}
+  - component: {fileID: 6928421766188659880}
   m_Layer: 5
   m_Name: stickerImg (7)
   m_TagString: Untagged
@@ -8034,6 +8613,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6928421766188659880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8181052126636784802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &8576107687231560115
 GameObject:
   m_ObjectHideFlags: 0
@@ -8046,6 +8640,7 @@ GameObject:
   - component: {fileID: 5620231761062111631}
   - component: {fileID: 3493770474974218888}
   - component: {fileID: 4811076387200142461}
+  - component: {fileID: 320359057334828775}
   m_Layer: 5
   m_Name: stickerImg (2)
   m_TagString: Untagged
@@ -8154,6 +8749,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &320359057334828775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8576107687231560115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &8901913084016269717
 GameObject:
   m_ObjectHideFlags: 0
@@ -8166,6 +8776,7 @@ GameObject:
   - component: {fileID: 2668916112005447061}
   - component: {fileID: 2284257013015811709}
   - component: {fileID: 8524119580266942673}
+  - component: {fileID: 3993609061867845924}
   m_Layer: 5
   m_Name: stickerImg (6)
   m_TagString: Untagged
@@ -8274,6 +8885,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3993609061867845924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8901913084016269717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &8948064130836405810
 GameObject:
   m_ObjectHideFlags: 0
@@ -8286,6 +8912,7 @@ GameObject:
   - component: {fileID: 6808658770948171879}
   - component: {fileID: 2022713894406697824}
   - component: {fileID: 4695564638000386810}
+  - component: {fileID: 5346824172260609257}
   m_Layer: 5
   m_Name: stickerImg (1)
   m_TagString: Untagged
@@ -8394,6 +9021,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &5346824172260609257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8948064130836405810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fbede1cfdfdb740b251340b084cff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stickerImg: {fileID: 0}
+  grabbing: 0
+  stickerController: {fileID: 0}
 --- !u!1 &9162895025038302410
 GameObject:
   m_ObjectHideFlags: 0
