@@ -48,7 +48,7 @@ public class Calendar : MonoBehaviour
         public void UpdateDay(int newDayNum)
         {
             this.dayNum = newDayNum;
-            if (dayColor == Color.white || dayColor == Color.green)
+            if (dayColor == Color.white || dayColor == new Color32(168, 212, 148, 255))
             {
                 obj.GetComponentInChildren<TextMeshProUGUI>().text = (dayNum + 1).ToString();
             }
@@ -147,7 +147,7 @@ public class Calendar : MonoBehaviour
         ///This just checks if today is on our calendar. If so, we highlight it in green
         if (DateTime.Now.Year == year && DateTime.Now.Month == month)
         {
-            days[(DateTime.Now.Day - 1) + startDay].UpdateColor(Color.green);
+            days[(DateTime.Now.Day - 1) + startDay].UpdateColor(new Color32(168, 212, 148, 255));
         }
 
     }
