@@ -4,6 +4,7 @@ using UnityEngine;
 using System;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.EventSystems;
 
 public class Calendar : MonoBehaviour
 {
@@ -187,5 +188,46 @@ public class Calendar : MonoBehaviour
         }
 
         UpdateCalendar(currDate.Year, currDate.Month);
+    }
+
+    public TMP_InputField inputBox;
+    public void setText()
+    {
+        GameObject buttonPressed = EventSystem.current.currentSelectedGameObject;
+        string day = buttonPressed.GetComponentInChildren<TextMeshProUGUI>().text;
+        string[] MonthAndYearString = MonthAndYear.text.Split(' ');
+        string month = convertMonthString(MonthAndYearString[0]);
+        string year = MonthAndYearString[1];
+        inputBox.text = month + "/" + day + "/" + year;
+    }
+
+    public string convertMonthString(string month)
+    {
+        if (month == "January")
+            return "1";
+        else if (month == "February")
+            return "2";
+        else if (month == "March")
+            return "3";
+        else if (month == "April")
+            return "4";
+        else if (month == "May")
+            return "5";
+        else if (month == "June")
+            return "6";
+        else if (month == "July")
+            return "7";
+        else if (month == "August")
+            return "8";
+        else if (month == "September")
+            return "9";
+        else if (month == "October")
+            return "10";
+        else if (month == "November")
+            return "11";
+        else if (month == "December")
+            return "12";
+        else
+            return "0";
     }
 }
