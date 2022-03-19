@@ -75,7 +75,7 @@ public class Calendar : MonoBehaviour
     /// This is the text object that displays the current month and year
     /// </summary>
     public TextMeshProUGUI MonthAndYear;
-
+   
     /// <summary>
     /// this currDate is the date our Calendar is currently on. The year and month are based on the calendar, 
     /// while the day itself is almost always just 1
@@ -83,12 +83,16 @@ public class Calendar : MonoBehaviour
     /// </summary>
     public DateTime currDate = DateTime.Now;
 
+    public TextMeshProUGUI ToDoListDate;
+
     /// <summary>
     /// In start we set the Calendar to the current date
     /// </summary>
     private void Start()
     {
         UpdateCalendar(DateTime.Now.Year, DateTime.Now.Month);
+        if (ToDoListDate != null)
+            ToDoListDate.text = "To-Do List for\n" + string.Format("{0:MMMM dd, yyyy}", DateTime.Now);
     }
 
     /// <summary>
@@ -190,37 +194,58 @@ public class Calendar : MonoBehaviour
         UpdateCalendar(currDate.Year, currDate.Month);
     }
 
-    public TMP_InputField inputBox;
+    public TextMeshProUGUI inputDueDate;
     public void setText()
     {
         GameObject buttonPressed = EventSystem.current.currentSelectedGameObject;
         string day = buttonPressed.GetComponentInChildren<TextMeshProUGUI>().text;
-        string[] MonthAndYearString = MonthAndYear.text.Split(' ');
-        string month = convertMonthString(MonthAndYearString[0]);
-        string year = MonthAndYearString[1];
-        inputBox.text = month + "/" + day + "/" + year;
+        if (day == "Add Task")
+        {
+            inputDueDate.text =  string.Format("{0:MM/dd/yyyy}", DateTime.Now);
+        }
+        else if(day != "")
+        {
+            string[] MonthAndYearString = MonthAndYear.text.Split(' ');
+            string month = convertMonthString(MonthAndYearString[0]);
+            string year = MonthAndYearString[1];
+            inputDueDate.text = month + "/" + day + "/" + year;
+        }
+    }
+
+
+    public void setToDoListText()
+    {
+        GameObject buttonPressed = EventSystem.current.currentSelectedGameObject;
+        string day = buttonPressed.GetComponentInChildren<TextMeshProUGUI>().text;
+        if(day != "")
+        {
+            string[] MonthAndYearString = MonthAndYear.text.Split(' ');
+            string month = MonthAndYearString[0];
+            string year = MonthAndYearString[1];
+            ToDoListDate.text = "To-Do List for\n" + month + " " + day + ", " + year;
+        }
     }
 
     public string convertMonthString(string month)
     {
         if (month == "January")
-            return "1";
+            return "01";
         else if (month == "February")
-            return "2";
+            return "02";
         else if (month == "March")
-            return "3";
+            return "03";
         else if (month == "April")
-            return "4";
+            return "04";
         else if (month == "May")
-            return "5";
+            return "05";
         else if (month == "June")
-            return "6";
+            return "06";
         else if (month == "July")
-            return "7";
+            return "07";
         else if (month == "August")
-            return "8";
+            return "08";
         else if (month == "September")
-            return "9";
+            return "09";
         else if (month == "October")
             return "10";
         else if (month == "November")
