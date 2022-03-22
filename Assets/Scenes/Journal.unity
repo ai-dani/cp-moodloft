@@ -800,7 +800,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 157.9, y: -60}
+  m_AnchoredPosition: {x: 157.90002, y: -60}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &129680124
@@ -3802,7 +3802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 157.9, y: -60}
+  m_AnchoredPosition: {x: 157.90002, y: -60}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &588257728
@@ -5339,7 +5339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -204.1, y: -52}
+  m_AnchoredPosition: {x: -204.10004, y: -52}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &798622471
@@ -5860,7 +5860,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 157.9, y: -60}
+  m_AnchoredPosition: {x: 157.90002, y: -60}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &864899299
@@ -5994,7 +5994,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 157.9, y: -60}
+  m_AnchoredPosition: {x: 157.90002, y: -60}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &871706309
@@ -6128,7 +6128,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 157.9, y: -60}
+  m_AnchoredPosition: {x: 157.90002, y: -60}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &886206136
@@ -8980,7 +8980,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -356, y: 8.390015}
+  m_AnchoredPosition: {x: -355.99994, y: 8.390015}
   m_SizeDelta: {x: -764.04, y: -77.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1475819550
@@ -11683,7 +11683,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 157.9, y: -60}
+  m_AnchoredPosition: {x: 157.90002, y: -60}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1866869919
@@ -12561,7 +12561,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 157.9, y: -60}
+  m_AnchoredPosition: {x: 157.90002, y: -60}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2092966571
@@ -13332,27 +13332,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 173470068015239724, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470068015239724, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470068015239724, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1122.9858
       objectReference: {fileID: 0}
     - target: {fileID: 173470068015239724, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 173470068237132561, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.6055285
       objectReference: {fileID: 0}
     - target: {fileID: 173470068237132561, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470068237132561, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMin.x
@@ -13360,51 +13360,51 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 173470068426102142, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470068426102142, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470068426102142, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 330.28998
       objectReference: {fileID: 0}
     - target: {fileID: 173470068426102142, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 173470068663061328, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470068663061328, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470068663061328, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 990.8699
       objectReference: {fileID: 0}
     - target: {fileID: 173470068663061328, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 173470068768206831, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470068768206831, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470068768206831, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 1255.1018
       objectReference: {fileID: 0}
     - target: {fileID: 173470068768206831, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 173470069085310791, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -13416,19 +13416,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 173470069151267293, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470069151267293, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470069151267293, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 198.174
       objectReference: {fileID: 0}
     - target: {fileID: 173470069151267293, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 173470069297860048, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_Pivot.x
@@ -13520,256 +13520,416 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 173470069297860055, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 173470069329594974, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470069329594974, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 173470069329594974, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470069329594974, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 726.63794
       objectReference: {fileID: 0}
     - target: {fileID: 173470069329594974, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 173470069379685135, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470069379685135, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470069379685135, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 858.7539
       objectReference: {fileID: 0}
     - target: {fileID: 173470069379685135, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 173470069549151725, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470069549151725, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470069549151725, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 594.522
       objectReference: {fileID: 0}
     - target: {fileID: 173470069549151725, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 173470069643108507, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470069643108507, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470069643108507, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 66.058
       objectReference: {fileID: 0}
     - target: {fileID: 173470069643108507, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 173470069726186243, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470069726186243, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470069726186243, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -6.779999
       objectReference: {fileID: 0}
     - target: {fileID: 173470069772662119, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470069772662119, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 173470069772662119, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 462.406
       objectReference: {fileID: 0}
     - target: {fileID: 173470069772662119, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
+    - target: {fileID: 228592095317048009, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 228592095317048009, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 320359057334828775, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 320359057334828775, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 417223972930011066, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 417223972930011066, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 475841301310275698, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 475841301310275698, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 1004029181841989760, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 1004029181841989760, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 1194473842480938120, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 1194473842480938120, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 1486471804788486457, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 1486471804788486457, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 1959205347276114733, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 1959205347276114733, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 2023365058318799287, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 2023365058318799287, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 2179126749471514802, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 2179126749471514802, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 2368929996618226407, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 2368929996618226407, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 2497707144297011815, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 2497707144297011815, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 2625213886509294426, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 2625213886509294426, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 3311136672348300521, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 3311136672348300521, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 3396561768029579769, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 3396561768029579769, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 3516377147232930556, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 3516377147232930556, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 3663002643981075730, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 3663002643981075730, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 3701150552247870455, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 3701150552247870455, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 3798551281944873782, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 3798551281944873782, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 3876528950476917215, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 3876528950476917215, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 3896349144565383211, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 3896349144565383211, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 3993609061867845924, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 3993609061867845924, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 4153795634947644413, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 4153795634947644413, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 4206747800520288067, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 4206747800520288067, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 4633590885353424152, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 4633590885353424152, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 4684035465725005758, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 4684035465725005758, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 5226736067796634962, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 5226736067796634962, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 5312946844079738007, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 5312946844079738007, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 5346824172260609257, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 5346824172260609257, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 5402968588295623187, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 5402968588295623187, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 5945608795898700431, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 5945608795898700431, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 6325480305602467080, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 6325480305602467080, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 6666904478050229401, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 6666904478050229401, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 6928421766188659880, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 6928421766188659880, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 7324811072422789064, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 7324811072422789064, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 8221999965892564149, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 8221999965892564149, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 8685266950698159114, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 8685266950698159114, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 9039473649073707786, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 9039473649073707786, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
     - target: {fileID: 9053549925264406758, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
+    - target: {fileID: 9053549925264406758, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
       objectReference: {fileID: 2084751105}
+    - target: {fileID: 9196669002175643091, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerController
+      value: 
+      objectReference: {fileID: 123036901}
     - target: {fileID: 9196669002175643091, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: stickerPanelController
       value: 
