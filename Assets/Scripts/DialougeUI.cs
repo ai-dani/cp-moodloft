@@ -12,6 +12,7 @@ public class DialougeUI : MonoBehaviour
     private TyperWritterEffect effect;
     public Button roomButton;
     private int count;
+    public TMP_InputField playerName; 
 
 private void Start()
     {
@@ -25,6 +26,7 @@ private void Start()
         Close();
         Show(test);
         roomButton.gameObject.SetActive(false);
+        
 
     }
 
