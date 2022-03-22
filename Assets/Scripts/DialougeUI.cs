@@ -25,7 +25,7 @@ private void Start()
         effect = GetComponent<TyperWritterEffect>();
         Close();
         Show(test);
-        roomButton.gameObject.SetActive(false);
+        //roomButton.gameObject.SetActive(false);
         
 
     }
@@ -41,7 +41,9 @@ private void Start()
         yield return new WaitForSeconds(1.5f);
         foreach (string dialogue in dialougeObject.Dialogue)
         {
-            yield return effect.Run(dialogue, textLabel);
+            string analyzedDialogue = "";
+            analyzedDialogue = AnalyzeText(dialogue);
+            yield return effect.Run(analyzedDialogue, textLabel);
             yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
 
 
@@ -65,6 +67,29 @@ private void Start()
         }
 
         Close();
+    }
+
+    public string AnalyzeText(string text)
+    {      
+        text = CheckAndReplaceName(text);
+        //can list more methods here for the future, like "checking other names"
+        return text;
+    }
+
+    //this method checks text if need player name
+    public string CheckAndReplaceName(string text)
+    {
+        if (text.Contains("[name]"))
+        {
+            //Debug.Log("yup it contains a name lol");
+            //string new_Text = text.Replace("[name]", PlayerPrefs.GetString("PlayerName"));
+            string new_Text = text.Replace("[name]", "Bob");
+            return new_Text;
+        }
+        else
+        {
+            return text;
+        }
     }
 
     private void Close()
