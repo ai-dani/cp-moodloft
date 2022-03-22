@@ -10,6 +10,7 @@ public class Sticker : MonoBehaviour
     public bool grabbing;
     GameObject currentSticker;
     public StickerController stickerController;
+    public StickerPanelController stickerPanelController;
     
     // Start is called before the first frame update
     void Start()
@@ -17,12 +18,14 @@ public class Sticker : MonoBehaviour
         grabbing=false;
         stickerImg = GetComponent<Image>();
         stickerButton = GetComponent<Button>();
-        stickerController = FindObjectOfType<StickerController>();
+        //stickerController = FindObjectOfType<StickerController>();
+        stickerPanelController = FindObjectOfType<StickerPanelController>(); //must manually drag to each sticker
         stickerButton.onClick.AddListener(GrabSticker);
     }
 
     void GrabSticker(){
         grabbing=true;
+        stickerPanelController.SlideDown();
         currentSticker = Instantiate(gameObject, stickerController.gameObject.transform);
 
         //destroys button so it is not clickable
@@ -46,6 +49,7 @@ public class Sticker : MonoBehaviour
 
         //put down sticker
         if(Input.GetMouseButtonDown(0) && grabbing){
+            stickerPanelController.SlideUp();
             grabbing=false;
         }
 

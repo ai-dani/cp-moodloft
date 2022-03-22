@@ -702,12 +702,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 123036897}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1560729300}
-  m_RootOrder: 4
+  m_Father: {fileID: 1759308602}
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -8597,18 +8597,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1336928915}
-        m_TargetAssemblyTypeName: TMPro.TMP_InputField, Unity.TextMeshPro
-        m_MethodName: set_text
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 2084751099}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -9141,7 +9129,6 @@ RectTransform:
   - {fileID: 640370543}
   - {fileID: 1759308602}
   - {fileID: 2084751100}
-  - {fileID: 123036898}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10559,6 +10546,7 @@ RectTransform:
   - {fileID: 1392792129}
   - {fileID: 376048567}
   - {fileID: 133338766}
+  - {fileID: 123036898}
   m_Father: {fileID: 1560729300}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12528,6 +12516,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 173470069297860048, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
   m_PrefabInstance: {fileID: 173470068161350444}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2084751105 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6501695798686427106, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+  m_PrefabInstance: {fileID: 173470068161350444}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084751099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6013caf040c09da48a1d75f595166837, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2092966569
 GameObject:
   m_ObjectHideFlags: 0
@@ -13411,6 +13410,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -37.30493
       objectReference: {fileID: 0}
+    - target: {fileID: 173470069093881833, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 173470069151267293, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -13611,6 +13614,166 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 228592095317048009, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 320359057334828775, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 417223972930011066, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 475841301310275698, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 1004029181841989760, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 1194473842480938120, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 1486471804788486457, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 1959205347276114733, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 2023365058318799287, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 2179126749471514802, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 2368929996618226407, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 2497707144297011815, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 2625213886509294426, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 3311136672348300521, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 3396561768029579769, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 3516377147232930556, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 3663002643981075730, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 3701150552247870455, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 3798551281944873782, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 3876528950476917215, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 3896349144565383211, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 3993609061867845924, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 4153795634947644413, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 4206747800520288067, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 4633590885353424152, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 4684035465725005758, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 5226736067796634962, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 5312946844079738007, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 5346824172260609257, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 5402968588295623187, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 5945608795898700431, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 6325480305602467080, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 6666904478050229401, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 6928421766188659880, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 7324811072422789064, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 8221999965892564149, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 8685266950698159114, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 9039473649073707786, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 9053549925264406758, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
+    - target: {fileID: 9196669002175643091, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
+      propertyPath: stickerPanelController
+      value: 
+      objectReference: {fileID: 2084751105}
     m_RemovedComponents:
     - {fileID: 6797500183254417040, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0db68552d67b44a4e809576e1ff28feb, type: 3}
