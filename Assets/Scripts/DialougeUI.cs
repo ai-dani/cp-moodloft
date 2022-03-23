@@ -12,22 +12,20 @@ public class DialougeUI : MonoBehaviour
     private TyperWritterEffect effect;
     public Button roomButton;
     private int count;
-    public TMP_InputField playerName; 
+    public TMP_InputField playerName;
+    public GameObject infoArea;
 
-private void Start()
+private void Awake()
     {
         //texLabel.text = "Welcome to your Mood Loft" +
         //    "" +
         //    "Hello, I am your pet. \n This is your personal Loft";
-
         // GetComponent <TyperWritterEffect>().Run(textToType: "This is a bit of text \n hello", textLabel);
 
         effect = GetComponent<TyperWritterEffect>();
         Close();
         Show(test);
-        //roomButton.gameObject.SetActive(false);
-        
-
+        roomButton.gameObject.SetActive(false);
     }
 
     public void Show(DialougeObject dialougeObject)
@@ -61,11 +59,7 @@ private void Start()
                     roomButton.gameObject.SetActive(true);
                 }
             }
-
-
-           
         }
-
         Close();
     }
 
@@ -82,8 +76,8 @@ private void Start()
         if (text.Contains("[name]"))
         {
             //Debug.Log("yup it contains a name lol");
-            //string new_Text = text.Replace("[name]", PlayerPrefs.GetString("PlayerName"));
-            string new_Text = text.Replace("[name]", "Bob");
+            string new_Text = text.Replace("[name]", PlayerPrefs.GetString("PlayerName"));            
+            string name = PlayerPrefs.GetString("name");
             return new_Text;
         }
         else

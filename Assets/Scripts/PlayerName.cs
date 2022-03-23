@@ -13,7 +13,9 @@ public class PlayerName : MonoBehaviour
     void Start()
     {
         if (submitButton != null)
+        {
             submitButton.onClick.AddListener(SubmitName);
+        }
     }
 
     // Update is called once per frame
@@ -25,7 +27,11 @@ public class PlayerName : MonoBehaviour
     public void SubmitName()
     {
         if (playerName != null)
+        {
             if (!playerName.text.Equals(""))
+            {
                 PlayerPrefs.SetString("PlayerName", playerName.text);
+            }
+        }
     }
 }
