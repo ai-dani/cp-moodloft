@@ -38,15 +38,11 @@ public class WaterPanelController : MonoBehaviour
             currentDroplet.transform.position = new Vector3(currentDroplet.transform.position.x, currentDroplet.transform.position.y, 0f);
             if(virtualCursor.objectReturned!=null && virtualCursor.objectReturned.tag=="WaterStickerPanel"){
                 placeable=true;
-                //placerTemp=virtualCursor.objectReturned.transform.GetChild(0).gameObject;
-                //placerTemp.SetActive(true);
                 Color newColor=new Color(255,255,255,1); //increase opacity
                 currentDroplet.GetComponent<Image>().color=newColor;
             }
             else if(virtualCursor.objectReturned!=null){
                 placeable=false;
-                //placerTemp.SetActive(false);
-                //virtualCursor.objectReturned.transform.GetChild(0).gameObject.SetActive(false);
                 Color newColor=new Color(255,255,255,0.2f); //decrease opacity
                 currentDroplet.GetComponent<Image>().color=newColor;
             }
@@ -61,6 +57,7 @@ public class WaterPanelController : MonoBehaviour
                 //put down sticker
         if(Input.GetMouseButtonDown(0) && placeable){
             grabbing=false;
+            currentDroplet.GetComponent<Image>().raycastTarget = true;
         }
     }
 }
