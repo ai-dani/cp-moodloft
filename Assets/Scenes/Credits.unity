@@ -1134,7 +1134,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: -330.00003, y: -84}
-  m_SizeDelta: {x: 440.52, y: 50}
+  m_SizeDelta: {x: 780, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1171462832
 MonoBehaviour:
@@ -1156,10 +1156,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Julianna Piechowicz
+  m_text: 'Julianna Piechowicz: Developer'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
+  m_sharedMaterial: {fileID: 2138235496334364275, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1183,8 +1183,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1404,7 +1404,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: -330.00003, y: -184}
-  m_SizeDelta: {x: 416.06, y: 50}
+  m_SizeDelta: {x: 780, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1356996183
 MonoBehaviour:
@@ -1426,10 +1426,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Aira Daniella San Agustin
+  m_text: 'Aira Daniella San Agustin: Developer'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
+  m_sharedMaterial: {fileID: 2138235496334364275, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1453,8 +1453,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1541,6 +1541,7 @@ MonoBehaviour:
   box: {fileID: 0}
   roomButton: {fileID: 0}
   playerName: {fileID: 0}
+  infoArea: {fileID: 0}
 --- !u!114 &1514587826
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1749,7 +1750,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: -330.00006, y: 116}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 780, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1727692158
 MonoBehaviour:
@@ -1771,10 +1772,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ava Badiee
+  m_text: 'Ava Badiee:  Artist/Credits'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
+  m_sharedMaterial: {fileID: 2138235496334364275, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1798,8 +1799,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2189,7 +2190,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
   m_AnchoredPosition: {x: -330.00003, y: 16.000004}
-  m_SizeDelta: {x: 337.25, y: 50}
+  m_SizeDelta: {x: 780, y: 50}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1933203934
 MonoBehaviour:
@@ -2211,10 +2212,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Chanelle Fernandez
+  m_text: 'Chanelle Fernandez: Developer'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
+  m_sharedMaterial: {fileID: 2138235496334364275, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2238,8 +2239,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
