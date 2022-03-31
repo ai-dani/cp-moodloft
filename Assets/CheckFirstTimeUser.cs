@@ -8,6 +8,7 @@ public class CheckFirstTimeUser : MonoBehaviour
     public Button play;
     public SceneLoader sceneLoader;
     public GameObject loadingPanel;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +17,7 @@ public class CheckFirstTimeUser : MonoBehaviour
     }
 
     void CheckUser(){
-        if(PlayerPrefs.GetString("PlayerName")==null){
+        if(PlayerPrefs.GetString("PlayerName")==null || PlayerPrefs.GetString("PlayerName").Equals("")){
             Debug.Log("new player");
             //do nothing
         }
@@ -24,6 +25,13 @@ public class CheckFirstTimeUser : MonoBehaviour
             loadingPanel.SetActive(true);
             Debug.Log("returning player");
             sceneLoader.LoadNextLvl("MainLoft");
+        }
+    }
+
+    void Update(){
+        if(Input.GetKeyDown("r")){
+            PlayerPrefs.SetString("PlayerName", "");
+            Debug.Log("Reset player:"+PlayerPrefs.GetString("PlayerName"));;
         }
     }
 }
