@@ -88,7 +88,6 @@ public class Timer : MonoBehaviour
         }
         float minutes = Mathf.FloorToInt(timeToDisplay / 60);
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
-        Debug.Log(timeRemaining);
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
@@ -266,7 +265,6 @@ public class Timer : MonoBehaviour
 
     public void checkForLongBreak()
     {
-        Debug.Log(pomodoros + " + " + pomodorosDone);
         if(pomodoros == pomodorosDone)
         {
             longBreak = true;
