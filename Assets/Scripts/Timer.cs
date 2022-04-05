@@ -22,6 +22,7 @@ public class Timer : MonoBehaviour
     public GameObject pomodoroPrefab;
     public Transform parentPomodoro;
     public int pomodorosDone = 0;
+    public bool longBreak = false;
 
     private void Start()
     {
@@ -47,6 +48,10 @@ public class Timer : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown("t"))
+        {
+            timeRemaining = 0;
+        }
         if (timerIsRunning)
         {
             if (timeRemaining > 0)
@@ -83,6 +88,7 @@ public class Timer : MonoBehaviour
         }
         float minutes = Mathf.FloorToInt(timeToDisplay / 60);
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
+        Debug.Log(timeRemaining);
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
     }
 
@@ -207,6 +213,12 @@ public class Timer : MonoBehaviour
             img.color = new Color32(158, 240, 255, 255);
             img = GameObject.Find("Pomodoro Circles Background").GetComponent<Image>();
             img.color = new Color32(26, 200, 237, 255);
+            if(longBreak == true)
+            {
+                pomodorosDone = 0;
+                longBreak = false;
+                updateNumOfPomodoros();
+            }
         }
         else if (workMode == false)
         {
@@ -214,8 +226,16 @@ public class Timer : MonoBehaviour
             img.color = new Color32(132, 221, 99, 255);
             img = GameObject.Find("Pomodoro Circles Background").GetComponent<Image>();
             img.color = new Color32(107, 170, 117, 255);
-            timeRemaining = shortBreakTime;
-            DisplayTime(timeRemaining);
+            if(longBreak == true)
+            {
+                timeRemaining = longBreakTime;
+                DisplayTime(timeRemaining);
+            }
+            else if(longBreak == false)
+            {
+                timeRemaining = shortBreakTime;
+                DisplayTime(timeRemaining);
+            }
         }
     }
 
@@ -249,13 +269,7 @@ public class Timer : MonoBehaviour
         Debug.Log(pomodoros + " + " + pomodorosDone);
         if(pomodoros == pomodorosDone)
         {
-            Image img = GameObject.Find("Timer Background").GetComponent<Image>();
-            img.color = new Color32(132, 221, 99, 255);
-            img = GameObject.Find("Pomodoro Circles Background").GetComponent<Image>();
-            img.color = new Color32(107, 170, 117, 255);
-            timeRemaining = longBreakTime;
-            DisplayTime(timeRemaining);
-            pomodorosDone = 0;
+            longBreak = true;
         }
     }
 }
