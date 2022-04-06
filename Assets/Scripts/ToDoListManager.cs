@@ -5,59 +5,91 @@ using UnityEngine.UI;
 using TMPro;
 
 public class ToDoListManager : MonoBehaviour
-{/*
+{
+    public GameObject toDoPrefab;
+    private GameObject toDoItem;
     public Transform content;
-    public GameObject addPanel;
-    public Button createButton;
-    public GameObject toDoListItemPrefab;
+    public TMP_InputField nameInputField;
+    public TextMeshProUGUI dueDateText;
 
-    string filePath;
-    private List<toDoListObjectTut> toDoListObjects = new List<toDoListObjectTut>();
+ 
 
-    private InputField[] addInputFields;
-
-    private void Start()
+   /* public void AddButton_Click()
     {
-        //filePath = Application.persistentDataPath = "/toDoList.txt";
-        //addInputFields = addPanel.GetCompnentsInChildren<InputFields>();
-
-        createButton.onClick.AddListener(delegate { CreateToDoListItem(addInputFields[0].text, addInputFields[1].text); });
+        GameObject toDoItem = Instantiate(toDoPrefab, content);
+        //createButton.onClick.AddListener(delegate { CreateToDoListItem(nameInputField.text, dueDateText.text); });
     }
 
-   /* void switchMode(int mode)
+    public void CreateToDoListItem(string name, string dueDate)
     {
-        switch (mode)
-        {
-            case 0:
-                addPanel.setActive(false);
-                break;
-            case 1:
-                addPanel.SetActive(true);
-                break;
-        }
+        Debug.Log(nameInputField.text);
+        toDoItem.GetComponentInChildren<TextMeshProUGUI>().text = name + " " + dueDate;
     }*/
 
-/*
-    void CreateToDoListItem(string name, string type)
+    public void addTask()
     {
-        GameObject item = Instantiate(toDoListItemPrefab);
-        
-        item.transform.SetParent(content);
-        toDoListObjectTut itemObject = item.GetComponents<toDoListObjectTut>();
-
-        int index = 0;
-        if(toDoListObjectTut.Count > 0)
-            int index = toDoListObjectTut.Count - 1;
-        itemObject.SetObjectInfo(name, type, index);
-
-        toDoListObjects.Add(itemObject);
-        toDoListObjectTut temp = itemObject;
-        itemObject.GetComponent<Toggle>().onValueChanged.AddListener(delegate { toDoListItem(temp); });
+        Debug.Log(nameInputField.text);
+        Debug.Log(dueDateText.text);
+        GameObject toDoItem = Instantiate(toDoPrefab, content);
+        string name = nameInputField.text;
+        string dueDate = dueDateText.text;
+        toDoItem.GetComponentInChildren<TextMeshProUGUI>().text = name + " " + dueDate;
     }
 
-    void toDoListItem(toDoListObjectTut item)
-    {
-        toDoListObects.Remove(item);
-    }
-*/
+    /* public Transform content;
+     public GameObject addPanel;
+     public Button createButton;
+     public GameObject toDoListItemPrefab;
+
+     string filePath;
+
+     private List<toDoListObject> toDoListObjects = new List<toDoListObject>();
+
+
+     private InputField[] addInputFields;
+
+     private void Start()
+     {
+         filePath = Application.persistentDataPath = "/toDoList.txt";
+         addInputFields = addPanel.GetComponentsInChildren<InputFields>();
+
+         createButton.onClick.AddListener(delegate { CreateToDoListItem(addInputFields[0].text, addInputFields[1].text); });
+     }
+
+     void switchMode(int mode)
+     {
+         switch (mode)
+         {
+             case 0:
+                 addPanel.SetActive(false);
+                 break;
+             case 1:
+                 addPanel.SetActive(true);
+                 break;
+         }
+     }
+
+
+     void CreateToDoListItem(string name, string type)
+     {
+         GameObject item = Instantiate(toDoListItemPrefab);
+
+         item.transform.SetParent(content);
+         toDoListObject itemObject = item.GetComponent<toDoListObject>();
+
+         int index = 0;
+         if (toDoListObject.Count > 0)
+             index = toDoListObject.Count - 1;
+         itemObject.SetObjectInfo(name, type, index);
+
+         toDoListObjects.Add(itemObject);
+         toDoListObject temp = itemObject;
+         itemObject.GetComponent<Toggle>().onValueChanged.AddListener(delegate { toDoListItem(temp); });
+     }
+
+     void toDoListItem(toDoListObject item)
+     {
+         toDoListObjects.Remove(item);
+         Destroy(item.gameObject);
+     }*/
 }
