@@ -12,29 +12,22 @@ public class ToDoListManager : MonoBehaviour
     public TMP_InputField nameInputField;
     public TextMeshProUGUI dueDateText;
 
- 
-
-   /* public void AddButton_Click()
-    {
-        GameObject toDoItem = Instantiate(toDoPrefab, content);
-        //createButton.onClick.AddListener(delegate { CreateToDoListItem(nameInputField.text, dueDateText.text); });
-    }
-
-    public void CreateToDoListItem(string name, string dueDate)
-    {
-        Debug.Log(nameInputField.text);
-        toDoItem.GetComponentInChildren<TextMeshProUGUI>().text = name + " " + dueDate;
-    }*/
 
     public void addTask()
     {
-        Debug.Log(nameInputField.text);
-        Debug.Log(dueDateText.text);
         GameObject toDoItem = Instantiate(toDoPrefab, content);
         string name = nameInputField.text;
         string dueDate = dueDateText.text;
-        toDoItem.GetComponentInChildren<TextMeshProUGUI>().text = name + " " + dueDate;
+        toDoItem.GetComponentInChildren<TextMeshProUGUI>().text = dueDate + ": " + name;
+        nameInputField.text = "";
+
     }
+
+    public void clearNameInput()
+    {
+        nameInputField.text = "";
+    }
+
 
     /* public Transform content;
      public GameObject addPanel;
