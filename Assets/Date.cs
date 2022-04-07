@@ -32,20 +32,8 @@ public class Date : MonoBehaviour
                 futureDaysIndices.Add(i);
              }
              dayOfWeekText[i].text = System.DateTime.Today.AddDays(diff).Date.ToString("MMMM dd, yyyy");
-
-             //load the key data values for each page panels (hardcoded for each page)
-             if(dayOfWeekText[i].gameObject.transform.parent!=null){
-                 PageData lab = dayOfWeekText[i].gameObject.transform.parent.GetComponent<PageData>();
-                 string dateKey = System.DateTime.Today.AddDays(diff).Date.ToString("MM-dd-yyyy");
-                 //Debug.Log("key: "+dateKey);
-                 lab.SetKey(dateKey);
-             }
              diff++;
          }
-    }
-
-    void Update(){
-
     }
 
     // Use for journal dates
