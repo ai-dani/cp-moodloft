@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: Dialouge
   m_EditorClassIdentifier: 
   dialouge:
-  - 'Welcome [name]  to the Mood Loft!
+  - 'Welcome [name]  to the CP Mood Loft!
 
     I''m your new pet. '
-  - 'In the loft you will find items that allow you to journal, track your habits
+  - 'In your room you will find items that allow you to journal, track your habits
     and mood, and stay productive throughout the week. '
   - Once in your room click on the items with a white boarder to go to each area.You
-    will be able to customize some sections with stickers.
-  - 'Click the red door to enter your CP Mood Loft
+    will be able to customize these sections with stickers.
+  - 'Click this door to enter your CP Mood Loft
 
 '
