@@ -1,25 +1,21 @@
-/*using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class toDoListObject : MonoBehaviour
+public class toDoListObjectTut : MonoBehaviour
 {
     public string objName;
     public string dueDate;
     public int index;
 
     private TextMeshProUGUI itemText;
-    private TextMeshProUGUI itemDueDate;
 
     private void Start()
     {
         itemText = GetComponentInChildren<TextMeshProUGUI>();
-        objName = itemText.text;
-
-        itemDueDate = GetComponentInChildren<TextMeshProUGUI>();
-        dueDate = itemDueDate.text;
+        itemText.text = objName;
     }
 
     public void SetObjectInfo(string name, string dueDate, int index)
@@ -28,4 +24,4 @@ public class toDoListObject : MonoBehaviour
         this.dueDate = dueDate;
         this.index = index;
     }
-}*/
+}
