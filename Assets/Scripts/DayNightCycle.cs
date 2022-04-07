@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
+using TMPro;
 
 
 public class DayNightCycle : MonoBehaviour
@@ -24,6 +25,10 @@ public class DayNightCycle : MonoBehaviour
     public Image clockButton;
     public Image waterButton;
     public Image bedButton;
+    public Image recordButton;
+    public Image settingsButton;
+
+
 
     //Day Buttons
     public Sprite dayCalender;
@@ -31,6 +36,8 @@ public class DayNightCycle : MonoBehaviour
     public Sprite dayClock;
     public Sprite dayWater;
     public Sprite dayBed;
+    public Sprite dayRecord;
+    public Sprite daySettings;
 
     //Night Buttons
     public Sprite nightCalender;
@@ -38,6 +45,8 @@ public class DayNightCycle : MonoBehaviour
     public Sprite nightClock;
     public Sprite nightWater;
     public Sprite nightBed;
+    public Sprite nightRecord;
+    public Sprite nightSettings;
 
     private DateTime currentTime =  DateTime.Now.ToLocalTime();
    
@@ -55,71 +64,112 @@ public class DayNightCycle : MonoBehaviour
     void Update()
     {
         //dayChange();
-        MouseClicked();
+        //MouseClicked();
     }
 
 
-    void dayChange()
+    //void dayChange()
+    //{
+    //    if (DateTime.Now.ToLocalTime().Hour < timeChange)
+    //    {
+    //        backgroundImage.GetComponent<Image>().sprite = dayImage;
+
+    //        calenderButton.GetComponent<Image>().sprite = dayCalender;
+    //        journalButton.GetComponent<Image>().sprite = dayJournal;
+    //        clockButton.GetComponent<Image>().sprite = dayClock;
+    //        waterButton.GetComponent<Image>().sprite = dayWater;
+    //        bedButton.GetComponent<Image>().sprite = dayBed;
+    //        recordButton.GetComponent<Image>().sprite = dayRecord;
+    //        settingsButton.GetComponent<Image>().sprite = daySettings;
+
+    //        petDay.SetActive(true);
+    //        petNight.SetActive(false);
+    //    }
+
+    //    else if (DateTime.Now.ToLocalTime().Hour >= timeChange)
+    //    {
+    //        backgroundImage.GetComponent<Image>().sprite = nightImage;
+
+    //        calenderButton.GetComponent<Image>().sprite = nightCalender;
+    //        journalButton.GetComponent<Image>().sprite = nightJournal;
+    //        clockButton.GetComponent<Image>().sprite = nightClock;
+    //        waterButton.GetComponent<Image>().sprite = nightWater;
+    //        bedButton.GetComponent<Image>().sprite = nightBed;
+    //        recordButton.GetComponent<Image>().sprite = nightRecord;
+    //        settingsButton.GetComponent<Image>().sprite = nightSettings;
+
+    //        petNight.SetActive(true);
+    //        petDay.SetActive(false);
+    //    }
+
+    //}
+
+    //void MouseClicked()
+    //{
+    //    if (Input.GetKeyDown("n"))
+    //    {
+    //        backgroundImage.GetComponent<Image>().sprite = dayImage;
+
+    //        calenderButton.GetComponent<Image>().sprite = dayCalender;
+    //        journalButton.GetComponent<Image>().sprite = dayJournal;
+    //        clockButton.GetComponent<Image>().sprite = dayClock;
+    //        waterButton.GetComponent<Image>().sprite = dayWater;
+    //        bedButton.GetComponent<Image>().sprite = dayBed;
+    //        recordButton.GetComponent<Image>().sprite = dayRecord;
+    //        settingsButton.GetComponent<Image>().sprite = daySettings;
+
+    //        petDay.SetActive(true);
+    //        petNight.SetActive(false);
+    //    }
+    //    else if (Input.GetKeyDown("d"))
+    //    {
+    //        backgroundImage.GetComponent<Image>().sprite = nightImage;
+
+    //        calenderButton.GetComponent<Image>().sprite = nightCalender;
+    //        journalButton.GetComponent<Image>().sprite = nightJournal;
+    //        clockButton.GetComponent<Image>().sprite = nightClock;
+    //        waterButton.GetComponent<Image>().sprite = nightWater;
+    //        bedButton.GetComponent<Image>().sprite = nightBed;
+    //        recordButton.GetComponent<Image>().sprite = nightRecord;
+    //        settingsButton.GetComponent<Image>().sprite = nightSettings;
+
+    //        petNight.SetActive(true);
+    //        petDay.SetActive(false);
+
+    //    }
+
+    //}
+
+    public void DayMode()
     {
-        if (DateTime.Now.ToLocalTime().Hour < timeChange)
-        {
-            backgroundImage.GetComponent<Image>().sprite = dayImage;
+        backgroundImage.GetComponent<Image>().sprite = dayImage;
 
-            calenderButton.GetComponent<Image>().sprite = dayCalender;
-            journalButton.GetComponent<Image>().sprite = dayJournal;
-            clockButton.GetComponent<Image>().sprite = dayClock;
-            waterButton.GetComponent<Image>().sprite = dayWater;
-            bedButton.GetComponent<Image>().sprite = dayBed;
+        calenderButton.GetComponent<Image>().sprite = dayCalender;
+        journalButton.GetComponent<Image>().sprite = dayJournal;
+        clockButton.GetComponent<Image>().sprite = dayClock;
+        waterButton.GetComponent<Image>().sprite = dayWater;
+        bedButton.GetComponent<Image>().sprite = dayBed;
+        recordButton.GetComponent<Image>().sprite = dayRecord;
+        settingsButton.GetComponent<Image>().sprite = daySettings;
 
-            petDay.SetActive(true);
-            petNight.SetActive(false);
-        }
-
-        else if (DateTime.Now.ToLocalTime().Hour >= timeChange)
-        {
-            backgroundImage.GetComponent<Image>().sprite = nightImage;
-
-            calenderButton.GetComponent<Image>().sprite = nightCalender;
-            journalButton.GetComponent<Image>().sprite = nightJournal;
-            clockButton.GetComponent<Image>().sprite = nightClock;
-            waterButton.GetComponent<Image>().sprite = nightWater;
-            bedButton.GetComponent<Image>().sprite = nightBed;
-
-            petNight.SetActive(true);
-            petDay.SetActive(false);
-        }
+        petDay.SetActive(true);
+        petNight.SetActive(false);
 
     }
 
-    void MouseClicked()
+    public void NightMode()
     {
-        if (Input.GetKeyDown("n"))
-        {
-            backgroundImage.GetComponent<Image>().sprite = nightImage;
+        backgroundImage.GetComponent<Image>().sprite = nightImage;
 
-            calenderButton.GetComponent<Image>().sprite = nightCalender;
-            journalButton.GetComponent<Image>().sprite = nightJournal;
-            clockButton.GetComponent<Image>().sprite = nightClock;
-            waterButton.GetComponent<Image>().sprite = nightWater;
-            bedButton.GetComponent<Image>().sprite = nightBed;
+        calenderButton.GetComponent<Image>().sprite = nightCalender;
+        journalButton.GetComponent<Image>().sprite = nightJournal;
+        clockButton.GetComponent<Image>().sprite = nightClock;
+        waterButton.GetComponent<Image>().sprite = nightWater;
+        bedButton.GetComponent<Image>().sprite = nightBed;
+        recordButton.GetComponent<Image>().sprite = nightRecord;
+        settingsButton.GetComponent<Image>().sprite = nightSettings;
 
-            petNight.SetActive(true);
-            petDay.SetActive(false);
-        }
-        else if (Input.GetKeyDown("d"))
-        {
-            backgroundImage.GetComponent<Image>().sprite = dayImage;
-
-            calenderButton.GetComponent<Image>().sprite = dayCalender;
-            journalButton.GetComponent<Image>().sprite = dayJournal;
-            clockButton.GetComponent<Image>().sprite = dayClock;
-            waterButton.GetComponent<Image>().sprite = dayWater;
-            bedButton.GetComponent<Image>().sprite = dayBed;
-
-            petDay.SetActive(true);
-            petNight.SetActive(false);
-
-        }
-
+        petNight.SetActive(true);
+        petDay.SetActive(false);
     }
 }
