@@ -12,20 +12,20 @@ public class DialougeUI : MonoBehaviour
     private TyperWritterEffect effect;
     public Button roomButton;
     private int count;
+    public TMP_InputField playerName;
+    public GameObject infoArea;
 
-private void Start()
+private void Awake()
     {
         //texLabel.text = "Welcome to your Mood Loft" +
         //    "" +
         //    "Hello, I am your pet. \n This is your personal Loft";
-
         // GetComponent <TyperWritterEffect>().Run(textToType: "This is a bit of text \n hello", textLabel);
 
         effect = GetComponent<TyperWritterEffect>();
         Close();
         Show(test);
         roomButton.gameObject.SetActive(false);
-
     }
 
     public void Show(DialougeObject dialougeObject)
@@ -39,7 +39,9 @@ private void Start()
         yield return new WaitForSeconds(1.5f);
         foreach (string dialogue in dialougeObject.Dialogue)
         {
-            yield return effect.Run(dialogue, textLabel);
+            string analyzedDialogue = "";
+            analyzedDialogue = AnalyzeText(dialogue);
+            yield return effect.Run(analyzedDialogue, textLabel);
             yield return new WaitUntil(() => Input.GetMouseButtonDown(0));
 
 
@@ -57,12 +59,31 @@ private void Start()
                     roomButton.gameObject.SetActive(true);
                 }
             }
-
-
-           
         }
-
         Close();
+    }
+
+    public string AnalyzeText(string text)
+    {      
+        text = CheckAndReplaceName(text);
+        //can list more methods here for the future, like "checking other names"
+        return text;
+    }
+
+    //this method checks text if need player name
+    public string CheckAndReplaceName(string text)
+    {
+        if (text.Contains("[name]"))
+        {
+            //Debug.Log("yup it contains a name lol");
+            string new_Text = text.Replace("[name]", PlayerPrefs.GetString("PlayerName"));            
+            string name = PlayerPrefs.GetString("name");
+            return new_Text;
+        }
+        else
+        {
+            return text;
+        }
     }
 
     private void Close()
