@@ -18,9 +18,9 @@ public class ToDoListManager : MonoBehaviour
         GameObject toDoItem = Instantiate(toDoPrefab, content);
         string name = nameInputField.text;
         string dueDate = dueDateText.text;
+        toDoItem.name = name;
         toDoItem.GetComponentInChildren<TextMeshProUGUI>().text = dueDate + ": " + name;
         nameInputField.text = "";
-
     }
 
     public void clearNameInput()
