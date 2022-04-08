@@ -3698,7 +3698,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Add Task
+  m_text: Add Event
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
   m_sharedMaterial: {fileID: 2138235496334364275, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
@@ -4698,7 +4698,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Enter New Task
+  m_text: Enter New Event
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
   m_sharedMaterial: {fileID: 2138235496334364275, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
@@ -8278,8 +8278,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -62.15, y: -89.8}
-  m_SizeDelta: {x: 93.85, y: 30}
+  m_AnchoredPosition: {x: -6, y: -91}
+  m_SizeDelta: {x: 132.89, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &839953615
 MonoBehaviour:
@@ -8329,18 +8329,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1152689850}
-        m_TargetAssemblyTypeName: Calendar, Assembly-CSharp
-        m_MethodName: setText
-        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -11078,7 +11066,7 @@ GameObject:
   - component: {fileID: 1060882540}
   - component: {fileID: 1060882539}
   m_Layer: 5
-  m_Name: To-Do List
+  m_Name: Events List
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11123,7 +11111,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: To-Do List
+  m_text: Event List
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
   m_sharedMaterial: {fileID: 2138235496334364275, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
@@ -12108,7 +12096,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Add Task
+  m_text: Add Event
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
   m_sharedMaterial: {fileID: 2138235496334364275, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
@@ -16221,8 +16209,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -98.849976, y: -300.11}
-  m_SizeDelta: {x: 86.16, y: 26.64}
+  m_AnchoredPosition: {x: -97.16998, y: -300.11}
+  m_SizeDelta: {x: 115.08, y: 26.64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1506900528
 MonoBehaviour:
@@ -20800,8 +20788,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -162.3, y: -48.9}
-  m_SizeDelta: {x: 119.1, y: 32.22}
+  m_AnchoredPosition: {x: -144.95, y: -48.9}
+  m_SizeDelta: {x: 84.39, y: 32.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1923479531
 MonoBehaviour:
@@ -20823,7 +20811,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Due Date:'
+  m_text: 'Date:'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
   m_sharedMaterial: {fileID: 2138235496334364275, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
@@ -21977,6 +21965,7 @@ GameObject:
   - component: {fileID: 2097544801}
   - component: {fileID: 2097544800}
   - component: {fileID: 2097544802}
+  - component: {fileID: 2097544803}
   m_Layer: 5
   m_Name: Calendar
   m_TagString: Untagged
@@ -22082,6 +22071,24 @@ MonoBehaviour:
   MonthAndYear: {fileID: 1756911838}
   ToDoListDate: {fileID: 1060882539}
   inputDueDate: {fileID: 0}
+--- !u!114 &2097544803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097544798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8b7b98ede9bd2045bb2d2f474ce4d2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  directory: /Resource/
+  fileName: EventsData.json
+  date: 
+  eventName: {fileID: 0}
+  addButton: {fileID: 0}
+  JsonFile: {fileID: 0}
 --- !u!1 &2102757327
 GameObject:
   m_ObjectHideFlags: 0

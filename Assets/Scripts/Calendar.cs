@@ -199,7 +199,7 @@ public class Calendar : MonoBehaviour
     {
         GameObject buttonPressed = EventSystem.current.currentSelectedGameObject;
         string day = buttonPressed.GetComponentInChildren<TextMeshProUGUI>().text;
-        if (day == "Add Task")
+        if (day == "Add Task" || day == "Add Event")
         {
             inputDueDate.text =  string.Format("{0:MM/dd/yyyy}", DateTime.Now);
         }
@@ -222,7 +222,7 @@ public class Calendar : MonoBehaviour
             string[] MonthAndYearString = MonthAndYear.text.Split(' ');
             string month = MonthAndYearString[0];
             string year = MonthAndYearString[1];
-            ToDoListDate.text = "To-Do List for\n" + month + " " + day + ", " + year;
+            ToDoListDate.text = "Events for\n" + month + " " + day + ", " + year;
         }
     }
 
