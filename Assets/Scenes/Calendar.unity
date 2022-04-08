@@ -8349,6 +8349,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2097544803}
+        m_TargetAssemblyTypeName: EventsData, Assembly-CSharp
+        m_MethodName: SaveEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &839953616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22085,9 +22097,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   directory: /Resource/
   fileName: EventsData.json
-  date: 
-  eventName: {fileID: 0}
-  addButton: {fileID: 0}
+  date: {fileID: 1447566731}
+  eventName: {fileID: 682902061}
+  addButton: {fileID: 839953615}
   JsonFile: {fileID: 0}
 --- !u!1 &2102757327
 GameObject:
