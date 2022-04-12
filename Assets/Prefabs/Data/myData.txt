@@ -1,1 +1,12 @@
-{"pages":[{"key":"04-05-2022","entry":"this is a test"},{"key":"04-05-2022","entry":"0"},{"key":"04-05-2022","entry":"1"},{"key":"04-05-2022","entry":"2"},{"key":"04-05-2022","entry":"test"},{"key":"04-07-2022","entry":"heyyy"},{"key":"04-07-2022","entry":"TEST"},{"key":"04-07-2022","entry":"Saved!"}]}
+{
+    "pages": [
+        {
+            "key": "04-05-2022",
+            "entry": "this is a test"
+        },
+        {
+            "key": "04-12-2022",
+            "entry": "This is tuesday's entry"
+        }
+    ]
+}
