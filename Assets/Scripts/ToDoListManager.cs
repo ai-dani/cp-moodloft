@@ -20,11 +20,11 @@ public class ToDoListManager : MonoBehaviour
         string dueDate = dueDateText.text;
         toDoItem.name = name;
         toDoItem.GetComponentInChildren<TextMeshProUGUI>().text = dueDate + ": " + name;
-        nameInputField.text = "";
     }
 
     public void clearNameInput()
     {
+        Debug.Log("clearedName");
         nameInputField.text = "";
     }
 

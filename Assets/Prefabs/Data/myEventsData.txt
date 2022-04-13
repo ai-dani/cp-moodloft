@@ -1,0 +1,32 @@
+{
+    "events": [
+        {
+            "date": "04-05-2022",
+            "eventName": "this is a test"
+        },
+        {
+            "date": "04-12-2022",
+            "eventName": "This is tuesday's entry"
+        },
+        {
+            "date": "04/12/2022",
+            "eventName": "fsdfsda"
+        },
+        {
+            "date": "04/12/2022",
+            "eventName": "fdsfdsa"
+        },
+        {
+            "date": "04/12/2022",
+            "eventName": "AppleSauce"
+        },
+        {
+            "date": "04/12/2022",
+            "eventName": "fsdfsda"
+        },
+        {
+            "date": "04/12/2022",
+            "eventName": "fdsafdsa"
+        }
+    ]
+}

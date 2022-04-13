@@ -92,7 +92,7 @@ public class Calendar : MonoBehaviour
     {
         UpdateCalendar(DateTime.Now.Year, DateTime.Now.Month);
         if (ToDoListDate != null)
-            ToDoListDate.text = "To-Do List for\n" + string.Format("{0:MMMM dd, yyyy}", DateTime.Now);
+            ToDoListDate.text = "Events for\n" + string.Format("{0:MMMM dd, yyyy}", DateTime.Now);
     }
 
     /// <summary>

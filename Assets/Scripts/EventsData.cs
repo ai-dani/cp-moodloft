@@ -5,17 +5,21 @@ using UnityEngine.UI;
 using TMPro;
 using System.IO;
 using System.Linq;
+using UnityEngine.EventSystems;
 
 public class EventsData : MonoBehaviour
 {
-    public string directory = "/Resource/";
-    public string fileName = "EventsData.json";
+    public string filePath = "Assets/Prefabs/Data/";
+    public string fileName = "myEventsData.txt";
     public TextMeshProUGUI date;
     public TMPro.TMP_InputField eventName;
     public Button addButton;
+    public Transform transformParent;
 
     public void Start()
     {
+        eventName = transformParent.GetComponentInChildren<TMPro.TMP_InputField>();
+        addButton.onClick.AddListener(SaveEvent);
     }
 
     public void SetDate(TextMeshProUGUI newDate)
@@ -40,32 +44,27 @@ public class EventsData : MonoBehaviour
 
     public void SaveEvent()
     {
-        Debug.Log("In Save Event");
-
-        string filePath = "Assets/Prefabs/Data/";
-        string fileName = "myEventsData.txt";
-
         if (!eventName.text.Equals(""))
             if (!Directory.Exists(filePath))
             {
-                Debug.Log("added data");
                 Directory.CreateDirectory(filePath);
             }
             else
             {
                 //create page based on current page
-                Debug.Log("In else portion");
                 string date = GetDate();
                 string eventName = GetInputField();
                 Event newEvent = new Event();
                 newEvent.date = date;
                 newEvent.eventName = eventName;
 
-                StreamReader reader = new StreamReader(filePath + fileName);
 
+                StreamReader reader = new StreamReader(filePath + fileName);
+                Debug.Log(filePath+fileName);
                 // Read existing json file linked in inspector
                 EventCollection eventCol = JsonUtility.FromJson<EventCollection>(reader.ReadToEnd());
                 reader.Close();
+
                 Debug.Log("previous: " + JsonFile.text);
                 List<Event> listOfEvents = new List<Event>();
                 listOfEvents = eventCol.events.ToList();
@@ -73,30 +72,72 @@ public class EventsData : MonoBehaviour
                 eventCol.events = listOfEvents.ToArray();
 
                 //save to file
-                string json = JsonUtility.ToJson(eventCol);
+                string json = JsonUtility.ToJson(eventCol, true);
                 File.WriteAllText(filePath + fileName, json);
                 eventCol = JsonUtility.FromJson<EventCollection>(JsonFile.text);
                 Debug.Log("new: " + json);
             }
     }
 
+    public TextMeshProUGUI MonthAndYear;
+
+    public void LoadEvents()
+    {
+        GameObject buttonPressed = EventSystem.current.currentSelectedGameObject;
+        string day = buttonPressed.GetComponentInChildren<TextMeshProUGUI>().text;
+
+        string[] MonthAndYearString = MonthAndYear.text.Split(' ');
+        string month = convertMonthString(MonthAndYearString[0]);
+        string year = MonthAndYearString[1];
+        string date = month + "/" + day + "/" + year;
+
+
+        // Read existing json file linked in inspector
+        StreamReader reader = new StreamReader(filePath + fileName);
+        EventCollection eventCol = JsonUtility.FromJson<EventCollection>(reader.ReadToEnd());
+        reader.Close();
+        List<Event> listOfEvents = new List<Event>();
+        listOfEvents = eventCol.events.ToList();
+
+        Debug.Log(listOfEvents);
+    }
+
+    public string convertMonthString(string month)
+    {
+        if (month == "January")
+            return "01";
+        else if (month == "February")
+            return "02";
+        else if (month == "March")
+            return "03";
+        else if (month == "April")
+            return "04";
+        else if (month == "May")
+            return "05";
+        else if (month == "June")
+            return "06";
+        else if (month == "July")
+            return "07";
+        else if (month == "August")
+            return "08";
+        else if (month == "September")
+            return "09";
+        else if (month == "October")
+            return "10";
+        else if (month == "November")
+            return "11";
+        else if (month == "December")
+            return "12";
+        else
+            return "0";
+    }
+
     //REF: https://answers.unity.com/questions/1580286/how-to-append-a-json-array-to-an-already-created-j.html
     public TextAsset JsonFile;
 
-    //  private void SavePageToJSON(){
-    //     // Read existing json file linked in inspector
-    //      PageCollection pageCol = JsonUtility.FromJson<PageCollection>(JsonFile.text);
-    //      Debug.Log(pageCol);
-    //      List<Page> listOfPages = pageCol.pages.ToList();
-
-    //      listOfPages.Add(new Page{ key="4/5/2022", entry="hello"});
-
-    //      pageCol.pages = listOfPages.ToArray();
-
-    //     string newJsonString = JsonUtility.ToJson(pageCol);
-    //      Debug.Log(newJsonString);
-    //  }
 }
+
+
 
 [System.Serializable]
 
