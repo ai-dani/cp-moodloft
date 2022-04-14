@@ -1517,8 +1517,6 @@ GameObject:
   - component: {fileID: 1514587829}
   - component: {fileID: 1514587828}
   - component: {fileID: 1514587827}
-  - component: {fileID: 1514587826}
-  - component: {fileID: 1514587825}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1526,37 +1524,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1514587825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514587824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8726f97f72ea406e8af6e8ea38b9840, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textLabel: {fileID: 0}
-  test: {fileID: 11400000, guid: 02efaf54ec3924d448d28f94668eba2c, type: 2}
-  box: {fileID: 0}
-  roomButton: {fileID: 0}
-  playerName: {fileID: 0}
-  infoArea: {fileID: 0}
---- !u!114 &1514587826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514587824}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c33cd02c8e5d2409789392cae58145bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 50
 --- !u!114 &1514587827
 MonoBehaviour:
   m_ObjectHideFlags: 0
