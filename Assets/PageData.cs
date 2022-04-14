@@ -120,20 +120,6 @@ public class PageData : MonoBehaviour
 
     //REF: https://answers.unity.com/questions/1580286/how-to-append-a-json-array-to-an-already-created-j.html
     public TextAsset JsonFile;
-
-    //  private void SavePageToJSON(){
-    //     // Read existing json file linked in inspector
-    //      PageCollection pageCol = JsonUtility.FromJson<PageCollection>(JsonFile.text);
-    //      Debug.Log(pageCol);
-    //      List<Page> listOfPages = pageCol.pages.ToList();
-
-    //      listOfPages.Add(new Page{ key="4/5/2022", entry="hello"});
-
-    //      pageCol.pages = listOfPages.ToArray();
-
-    //     string newJsonString = JsonUtility.ToJson(pageCol);
-    //      Debug.Log(newJsonString);
-    //  }
 }
 
 [System.Serializable]
@@ -141,11 +127,20 @@ public class PageData : MonoBehaviour
 public class Page{
     public string key;
     public string entry;
+    public StickerData[] sticker; //stickers
 }
 
 [System.Serializable]
 public class PageCollection{
     public Page[] pages;
+}
+
+[System.Serializable]
+public class StickerData{
+    public string fileLocation;
+    public float xPos;
+    public float yPos;
+    public float zPos;
 }
 
 
