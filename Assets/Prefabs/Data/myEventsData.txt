@@ -1,32 +1,18 @@
 {
     "events": [
         {
-            "date": "04-05-2022",
-            "eventName": "this is a test"
+            "date": "04/14/2022",
+            "eventName": "gsfgs",
+            "checkmark": false,
+            "time1": "2:30 am",
+            "time2": "12:15 am"
         },
         {
-            "date": "04-12-2022",
-            "eventName": "This is tuesday's entry"
-        },
-        {
-            "date": "04/12/2022",
-            "eventName": "fsdfsda"
-        },
-        {
-            "date": "04/12/2022",
-            "eventName": "fdsfdsa"
-        },
-        {
-            "date": "04/12/2022",
-            "eventName": "AppleSauce"
-        },
-        {
-            "date": "04/12/2022",
-            "eventName": "fsdfsda"
-        },
-        {
-            "date": "04/12/2022",
-            "eventName": "fdsafdsa"
+            "date": "04/14/2022",
+            "eventName": "biybui",
+            "checkmark": false,
+            "time1": "11:00 am",
+            "time2": "12:15 pm"
         }
     ]
 }

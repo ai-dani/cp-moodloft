@@ -14,12 +14,20 @@ public class EventsData : MonoBehaviour
     public TextMeshProUGUI date;
     public TMPro.TMP_InputField eventName;
     public Button addButton;
+    public TextMeshProUGUI MonthAndYear;
     public Transform transformParent;
+    public Transform content;
+    public GameObject toDoPrefab;
+    private GameObject toDoItem;
+    public TextMeshProUGUI time1Text;
+    public TextMeshProUGUI time2Text;
+
 
     public void Start()
     {
         eventName = transformParent.GetComponentInChildren<TMPro.TMP_InputField>();
         addButton.onClick.AddListener(SaveEvent);
+
     }
 
     public void SetDate(TextMeshProUGUI newDate)
@@ -57,7 +65,9 @@ public class EventsData : MonoBehaviour
                 Event newEvent = new Event();
                 newEvent.date = date;
                 newEvent.eventName = eventName;
-
+                newEvent.checkmark = false;
+                newEvent.time1 = time1Text.text;
+                newEvent.time2 = time2Text.text;
 
                 StreamReader reader = new StreamReader(filePath + fileName);
                 Debug.Log(filePath+fileName);
@@ -79,10 +89,9 @@ public class EventsData : MonoBehaviour
             }
     }
 
-    public TextMeshProUGUI MonthAndYear;
-
     public void LoadEvents()
     {
+        Debug.Log("In Load Events");
         GameObject buttonPressed = EventSystem.current.currentSelectedGameObject;
         string day = buttonPressed.GetComponentInChildren<TextMeshProUGUI>().text;
 
@@ -91,6 +100,11 @@ public class EventsData : MonoBehaviour
         string year = MonthAndYearString[1];
         string date = month + "/" + day + "/" + year;
 
+        // Delete all events before refreshing
+        foreach (Transform child in content)
+        {
+                Destroy(child.gameObject);
+        }
 
         // Read existing json file linked in inspector
         StreamReader reader = new StreamReader(filePath + fileName);
@@ -99,8 +113,24 @@ public class EventsData : MonoBehaviour
         List<Event> listOfEvents = new List<Event>();
         listOfEvents = eventCol.events.ToList();
 
-        Debug.Log(listOfEvents);
+        foreach (Event item in listOfEvents)
+        {
+            if (date == item.date)
+            {
+                GameObject toDoItem = Instantiate(toDoPrefab, content);
+                string dueDate = date;
+                string time1 = item.time1;
+                string time2 = item.time2;
+                toDoItem.name = item.eventName;
+                toDoItem.GetComponentInChildren<TextMeshProUGUI>().text = time1 + "-" + time2 + ": " + item.eventName;
+                if (item.checkmark == true)
+                {
+                    toDoItem.GetComponentInChildren<Toggle>().isOn = true;
+                }
+            }
+        }
     }
+
 
     public string convertMonthString(string month)
     {
@@ -137,14 +167,15 @@ public class EventsData : MonoBehaviour
 
 }
 
-
-
 [System.Serializable]
 
 public class Event
 {
     public string date;
     public string eventName;
+    public bool checkmark;
+    public string time1;
+    public string time2;
 }
 
 [System.Serializable]

@@ -24,7 +24,6 @@ public class ToDoListManager : MonoBehaviour
 
     public void clearNameInput()
     {
-        Debug.Log("clearedName");
         nameInputField.text = "";
     }
 
