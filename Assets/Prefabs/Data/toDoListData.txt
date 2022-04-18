@@ -1,0 +1,19 @@
+{
+    "toDoItems": [
+        {
+            "date": "04/14/2022",
+            "eventName": "Apple",
+            "checkmark": true
+        },
+        {
+            "date": "",
+            "eventName": "",
+            "checkmark": true
+        },
+        {
+            "date": "04/28/2022",
+            "eventName": "Hello!",
+            "checkmark": true
+        }
+    ]
+}
