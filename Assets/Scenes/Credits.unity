@@ -336,7 +336,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "HSV-Color-Picker-Unity: \n\thttps://github.com/judah4/HSV-Color-Picker-Unity\nUnity
     2D Tutorial: ToDo List (Part 1): \n          https://www.youtube.com/watch?v=cMwCZhZnE4k&t=185s\nUnity
-    2D Tutorial: Calendar\n          https://www.youtube.com/watch?v=cMwCZhZnE4k&t=185s"
+    2D Tutorial: Calendar\n          https://www.youtube.com/watch?v=cMwCZhZnE4k&t=185s\nSETUP:
+    How to Create a Flexible Dialogue System \n          https://www.youtube.com/watch?v=RfLCzDzkvb0"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
