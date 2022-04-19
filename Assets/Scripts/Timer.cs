@@ -222,9 +222,9 @@ public class Timer : MonoBehaviour
         else if (workMode == false)
         {
             Image img = GameObject.Find("Timer Background").GetComponent<Image>();
-            img.color = new Color32(132, 221, 99, 255);
+            img.color = new Color32(230, 197, 156, 255);
             img = GameObject.Find("Pomodoro Circles Background").GetComponent<Image>();
-            img.color = new Color32(107, 170, 117, 255);
+            img.color = new Color32(217, 179, 132, 255);
             if(longBreak == true)
             {
                 timeRemaining = longBreakTime;
@@ -257,7 +257,7 @@ public class Timer : MonoBehaviour
     {
         for (int i = 0; i < pomodorosDone; i++)
         {
-            parentPomodoro.GetChild(i).gameObject.GetComponent<Image>().color = new Color32(0, 0, 0, 255);
+            parentPomodoro.GetChild(i).gameObject.GetComponent<Image>().color = new Color32(43, 78, 97, 255);
         }
 
         checkForLongBreak();
