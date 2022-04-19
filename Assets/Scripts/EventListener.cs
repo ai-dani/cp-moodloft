@@ -35,9 +35,7 @@ public class EventListener : MonoBehaviour
                 //update JSON file
                 foreach (Event item in listOfEvents)
                 {
-                    Debug.Log(item.eventName);
-                    Debug.Log(child.gameObject.GetComponentInChildren<TextMeshProUGUI>().text);
-                    if (item.eventName == child.gameObject.GetComponentInChildren<TextMeshProUGUI>().text)
+                    if ((item.time1 + "-" + item.time1 + ": " + item.eventName) == child.gameObject.GetComponentInChildren<TextMeshProUGUI>().text)
                     {
                         item.checkmark = true;
                     }
@@ -46,10 +44,11 @@ public class EventListener : MonoBehaviour
             else
             {
                 child.gameObject.GetComponentInChildren<TextMeshProUGUI>().fontStyle = FontStyles.Normal;
+
                 //update JSON file
                 foreach (Event item in listOfEvents)
                 {
-                    if (item.eventName == child.gameObject.GetComponentInChildren<TextMeshProUGUI>().text)
+                    if ((item.time1 + "-" + item.time1 + ": " + item.eventName) == child.gameObject.GetComponentInChildren<TextMeshProUGUI>().text)
                     {
                         item.checkmark = false;
                     }
