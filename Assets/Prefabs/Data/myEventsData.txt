@@ -13,6 +13,13 @@
             "checkmark": false,
             "time1": "11:00 am",
             "time2": "12:15 pm"
+        },
+        {
+            "date": "04/19/2022",
+            "eventName": "Hello!",
+            "checkmark": false,
+            "time1": "1:00 am",
+            "time2": "1:00 am"
         }
     ]
 }
