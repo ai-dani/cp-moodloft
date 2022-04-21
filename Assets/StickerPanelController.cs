@@ -5,16 +5,16 @@ using UnityEngine.UI;
 public class StickerPanelController : MonoBehaviour
 {
     public Animator anim;
-    public Button slideDownButton;
-    public Button slideUpButton;
+    //public Button slideDownButton;
+    //public Button slideUpButton;
     public Button closeButton;
 
     // Start is called before the first frame update
     void Start()
     {
         anim=GetComponent<Animator>();
-        slideDownButton.onClick.AddListener(SlideDown);
-        slideUpButton.onClick.AddListener(SlideUp);
+        //slideDownButton.onClick.AddListener(SlideDown);
+        //slideUpButton.onClick.AddListener(SlideUp);
         closeButton.onClick.AddListener(Close);
     }
 

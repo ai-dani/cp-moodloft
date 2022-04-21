@@ -21550,7 +21550,7 @@ RectTransform:
   m_GameObject: {fileID: 408162712}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.98182404, y: 0.98182404, z: 0.98182404}
   m_Children:
   - {fileID: 1793372332}
   m_Father: {fileID: 106637352}
@@ -72693,7 +72693,7 @@ RectTransform:
   m_GameObject: {fileID: 1269080681}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.9409933, y: 4.9409933, z: 4.9409933}
+  m_LocalScale: {x: 4.982003, y: 4.982003, z: 4.982003}
   m_Children:
   - {fileID: 1673273237}
   m_Father: {fileID: 381982388}
@@ -72701,7 +72701,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 324.7, y: -77.9}
+  m_AnchoredPosition: {x: 328, y: -72}
   m_SizeDelta: {x: 114.93, y: 67.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1269080684
@@ -82628,6 +82628,7 @@ GameObject:
   - component: {fileID: 1460907607}
   - component: {fileID: 1460907606}
   - component: {fileID: 1460907608}
+  - component: {fileID: 1460907609}
   m_Layer: 5
   m_Name: Timer
   m_TagString: Untagged
@@ -82816,6 +82817,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameInputField: {fileID: 2027659672}
+--- !u!95 &1460907609
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460907603}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 981805316eec34d3fa1c642844d58e53, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1461304112
 GameObject:
   m_ObjectHideFlags: 0
