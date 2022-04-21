@@ -337,7 +337,9 @@ MonoBehaviour:
   m_text: "HSV-Color-Picker-Unity: \n\thttps://github.com/judah4/HSV-Color-Picker-Unity\nUnity
     2D Tutorial: ToDo List (Part 1): \n          https://www.youtube.com/watch?v=cMwCZhZnE4k&t=185s\nUnity
     2D Tutorial: Calendar\n          https://www.youtube.com/watch?v=cMwCZhZnE4k&t=185s\nSETUP:
-    How to Create a Flexible Dialogue System \n          https://www.youtube.com/watch?v=RfLCzDzkvb0"
+    How to Create a Flexible Dialogue System \n        https://www.youtube.com/watch?v=RfLCzDzkvb0\nSave
+    and Load from JSON\n        https://www.youtube.com/watch?v=6uMFEM-napE\nDate
+    and Time in Unity\n         https://www.youtube.com/watch?v=Z6pEAngpR9I"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1742,7 +1744,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ava Badiee:  Artist/Credits'
+  m_text: 'Ava Badiee:  Artist/Designer'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
   m_sharedMaterial: {fileID: 2138235496334364275, guid: 9918e572eba6d094b89e9f0ca70999f9, type: 2}
