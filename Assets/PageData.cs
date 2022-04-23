@@ -13,11 +13,15 @@ public class PageData : MonoBehaviour
     public string key;
     public TMPro.TMP_InputField textBox;
     public Button SaveButton;
+    public TMPro.TMP_Text LastSavedText;
     //public Button EditButton;
 
     public void Start(){
         textBox=transform.GetComponentInChildren<TMPro.TMP_InputField>();
         SaveButton.onClick.AddListener(SavePage);
+        if(this.transform.Find("LastSaved").gameObject!=null){
+            LastSavedText = this.transform.Find("LastSaved").gameObject.GetComponent<TMPro.TMP_Text>();
+        }
 
         LoadPage();
     }
@@ -56,6 +60,7 @@ public class PageData : MonoBehaviour
                 Page newPage = new Page();
                 newPage.key = key;
                 newPage.entry = input;
+                newPage.time = System.DateTime.Now.ToShortTimeString();
 
                 StreamReader reader = new StreamReader(filePath+fileName);
 
@@ -73,6 +78,7 @@ public class PageData : MonoBehaviour
                     //if this key already exists, edit existing entry
                     if(page.key.Equals(GetKey())){ 
                         page.entry = input;
+                        page.time = System.DateTime.Now.ToShortTimeString();
                         keyExists=true;
                         break;
                     }
@@ -90,6 +96,7 @@ public class PageData : MonoBehaviour
                 pageCol = JsonUtility.FromJson<PageCollection>(JsonFile.text);
                 Debug.Log("new: " + json);
 
+                LastSavedText.text = "Saved on " + GetKey() + " at " + newPage.time;
                 //ToggleEdit();
             }  
     }
@@ -107,6 +114,7 @@ public class PageData : MonoBehaviour
             if(page.key.Equals(GetKey())){
                 if(!page.entry.Equals("")){ //if there's something in the entry
                     textBox.text=page.entry;
+                    LastSavedText.text="Last saved on " + page.key + " at " + page.time;
                     //ToggleEdit();
                 }    
             }
@@ -126,6 +134,7 @@ public class PageData : MonoBehaviour
 
 public class Page{
     public string key;
+    public string time;
     public string entry;
     public StickerData[] sticker; //stickers
 }

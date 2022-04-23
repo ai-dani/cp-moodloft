@@ -14,6 +14,8 @@ public class Date : MonoBehaviour
 
     void Awake()
     {
+        //Debug.Log("system time: " + System.DateTime.Now);
+        //Debug.Log("utc time: " + System.DateTime.UtcNow);
         futureDayText = new List<TMPro.TMP_Text>();
         futureDaysIndices = new List<int>();
         PopulateDatesForDayOfWeek();
@@ -21,7 +23,7 @@ public class Date : MonoBehaviour
 
 //newer, prettier code...
     void PopulateDatesForDayOfWeek(){
-        int diff = System.DayOfWeek.Monday - System.DateTime.UtcNow.DayOfWeek;
+        int diff = System.DayOfWeek.Monday - System.DateTime.Now.DayOfWeek;
          for(int i = 0; i < dayOfWeekText.Length; i++){
              if(diff == 0){ //this is the current day of week
                 currentDayText = dayOfWeekText[i];
