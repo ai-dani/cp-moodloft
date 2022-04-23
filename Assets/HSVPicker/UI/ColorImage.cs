@@ -43,44 +43,36 @@ namespace HSVPicker
         void TaskOnClick1()
         { 
             monImg.color = currentColor;
-            
-            Debug.Log("You have clicked the button!");
         }
 
         void TaskOnClick2()
         { 
             tueImg.color = currentColor;
-            Debug.Log("You have clicked the button!");
         }
 
         void TaskOnClick3()
         {
             wedImg.color = currentColor;
-            Debug.Log("You have clicked the button!");
         }
 
         void TaskOnClick4()
         {
             thurImg.color = currentColor;
-            Debug.Log("You have clicked the button!");
         }
 
         void TaskOnClick5()
         {
             friImg.color = currentColor;
-            Debug.Log("You have clicked the button!");
         }
 
         void TaskOnClick6()
         {
             satImg.color = currentColor;
-            Debug.Log("You have clicked the button!");
         }
 
         void TaskOnClick7()
         {
             sunImg.color = currentColor;
-            Debug.Log("You have clicked the button!");
         }
 
         private void OnDestroy()

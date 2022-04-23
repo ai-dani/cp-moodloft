@@ -7,6 +7,7 @@ public class Date : MonoBehaviour
     //[SerializeField] TMPro.TMP_Text dateText;
     public TMPro.TMP_Text[] dayOfWeekText; //drag and drop day of the week (7 slots for M-Sun)
     public TMPro.TMP_Text currentDayText;
+    public MoodData[] moodButtons;
     public List<TMPro.TMP_Text> futureDayText;
     
     public int currentDayIndex;
@@ -35,13 +36,17 @@ public class Date : MonoBehaviour
              }
              dayOfWeekText[i].text = System.DateTime.Today.AddDays(diff).Date.ToString("MMMM dd, yyyy");
 
+            string dateKey = System.DateTime.Today.AddDays(diff).Date.ToString("MM-dd-yyyy");
              //load the key data values for each page panels (hardcoded for each page)
              if(dayOfWeekText[i].gameObject.transform.parent!=null){
                  PageData lab = dayOfWeekText[i].gameObject.transform.parent.GetComponent<PageData>();
-                 string dateKey = System.DateTime.Today.AddDays(diff).Date.ToString("MM-dd-yyyy");
                  //Debug.Log("key: "+dateKey);
                  lab.SetKey(dateKey);
              }
+
+             //load the key data values for each mood buttons (hard coded for each mood button)
+            moodButtons[i].SetKey(dateKey);
+
              diff++;
          }
     }
