@@ -8,8 +8,8 @@ using System.Linq;
 
 public class PageData : MonoBehaviour
 {
-    public string filePath = "Assets/Prefabs/Data/";
-    public string fileName = "myData.txt";
+    public string filePath;
+    public string fileName;
     public string key;
     public TMPro.TMP_InputField textBox;
     public Button SaveButton;
@@ -17,6 +17,8 @@ public class PageData : MonoBehaviour
     //public Button EditButton;
 
     public void Start(){
+        filePath="Assets/Prefabs/Data/";
+        fileName = "myData.txt";
         textBox=transform.GetComponentInChildren<TMPro.TMP_InputField>();
         SaveButton.onClick.AddListener(SavePage);
         if(this.transform.Find("LastSaved").gameObject!=null){

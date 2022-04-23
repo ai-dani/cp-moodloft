@@ -1051,12 +1051,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   filePath: Assets/Prefabs/Data/
-  fileName: myData.json
-  JsonFile: {fileID: 0}
+  fileName: myData.txt
   key: 
   textBox: {fileID: 0}
   SaveButton: {fileID: 0}
   LastSavedText: {fileID: 0}
+  JsonFile: {fileID: 0}
 --- !u!1 &12030563
 GameObject:
   m_ObjectHideFlags: 0
@@ -22788,12 +22788,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   filePath: Assets/Prefabs/Data/
-  fileName: myData.json
-  JsonFile: {fileID: 0}
+  fileName: myData.txt
   key: 
   textBox: {fileID: 0}
   SaveButton: {fileID: 0}
   LastSavedText: {fileID: 0}
+  JsonFile: {fileID: 0}
 --- !u!1 &408162712
 GameObject:
   m_ObjectHideFlags: 0
@@ -25522,11 +25522,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filePath: 
   fileName: myData.txt
-  JsonFile: {fileID: 0}
   key: 
   textBox: {fileID: 0}
   SaveButton: {fileID: 374945019}
   LastSavedText: {fileID: 0}
+  JsonFile: {fileID: 4900000, guid: cfa7c98a45d8e1f4eac72b718e005765, type: 3}
 --- !u!1 &449779367
 GameObject:
   m_ObjectHideFlags: 0
@@ -29919,11 +29919,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filePath: 
   fileName: myData.txt
-  JsonFile: {fileID: 0}
   key: 
   textBox: {fileID: 0}
   SaveButton: {fileID: 416332850}
   LastSavedText: {fileID: 0}
+  JsonFile: {fileID: 4900000, guid: cfa7c98a45d8e1f4eac72b718e005765, type: 3}
 --- !u!1 &513845790
 GameObject:
   m_ObjectHideFlags: 0
@@ -31668,11 +31668,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filePath: 
   fileName: myData.txt
-  JsonFile: {fileID: 0}
   key: 
   textBox: {fileID: 0}
   SaveButton: {fileID: 1083463757}
   LastSavedText: {fileID: 0}
+  JsonFile: {fileID: 4900000, guid: cfa7c98a45d8e1f4eac72b718e005765, type: 3}
 --- !u!1 &555241999
 GameObject:
   m_ObjectHideFlags: 0
@@ -32070,12 +32070,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   filePath: Assets/Prefabs/Data/
-  fileName: myData.json
-  JsonFile: {fileID: 0}
+  fileName: myData.txt
   key: 
   textBox: {fileID: 0}
   SaveButton: {fileID: 0}
   LastSavedText: {fileID: 0}
+  JsonFile: {fileID: 0}
 --- !u!1 &560812734
 GameObject:
   m_ObjectHideFlags: 0
@@ -33973,12 +33973,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   filePath: Assets/Prefabs/Data/
-  fileName: myData.json
-  JsonFile: {fileID: 0}
+  fileName: myData.txt
   key: 
   textBox: {fileID: 0}
   SaveButton: {fileID: 0}
   LastSavedText: {fileID: 0}
+  JsonFile: {fileID: 0}
 --- !u!1 &590071862
 GameObject:
   m_ObjectHideFlags: 0
@@ -34109,11 +34109,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filePath: 
   fileName: myData.txt
-  JsonFile: {fileID: 0}
   key: 
   textBox: {fileID: 0}
   SaveButton: {fileID: 856169153}
   LastSavedText: {fileID: 0}
+  JsonFile: {fileID: 4900000, guid: cfa7c98a45d8e1f4eac72b718e005765, type: 3}
 --- !u!1 &593757158
 GameObject:
   m_ObjectHideFlags: 0
@@ -43331,12 +43331,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   filePath: Assets/Prefabs/Data/
-  fileName: myData.json
-  JsonFile: {fileID: 0}
+  fileName: myData.txt
   key: 
   textBox: {fileID: 0}
   SaveButton: {fileID: 0}
   LastSavedText: {fileID: 0}
+  JsonFile: {fileID: 0}
 --- !u!1 &732348195
 GameObject:
   m_ObjectHideFlags: 0
@@ -81780,12 +81780,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   filePath: Assets/Prefabs/Data/
-  fileName: myData.json
-  JsonFile: {fileID: 0}
+  fileName: myData.txt
   key: 
   textBox: {fileID: 0}
   SaveButton: {fileID: 0}
   LastSavedText: {fileID: 0}
+  JsonFile: {fileID: 0}
 --- !u!1 &1348783035
 GameObject:
   m_ObjectHideFlags: 0
@@ -85665,12 +85665,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   filePath: Assets/Prefabs/Data/
-  fileName: myData.json
-  JsonFile: {fileID: 0}
+  fileName: myData.txt
   key: 
   textBox: {fileID: 0}
   SaveButton: {fileID: 0}
   LastSavedText: {fileID: 0}
+  JsonFile: {fileID: 0}
 --- !u!1 &1431161558
 GameObject:
   m_ObjectHideFlags: 0
@@ -102260,11 +102260,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filePath: 
   fileName: myData.txt
-  JsonFile: {fileID: 0}
   key: 
   textBox: {fileID: 0}
   SaveButton: {fileID: 1921388136}
   LastSavedText: {fileID: 0}
+  JsonFile: {fileID: 4900000, guid: cfa7c98a45d8e1f4eac72b718e005765, type: 3}
 --- !u!1 &1709482344
 GameObject:
   m_ObjectHideFlags: 0
@@ -110640,11 +110640,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filePath: 
   fileName: myData.txt
-  JsonFile: {fileID: 0}
   key: 
   textBox: {fileID: 0}
   SaveButton: {fileID: 1045439256}
   LastSavedText: {fileID: 0}
+  JsonFile: {fileID: 4900000, guid: cfa7c98a45d8e1f4eac72b718e005765, type: 3}
 --- !u!1 &1854444143
 GameObject:
   m_ObjectHideFlags: 0
@@ -124097,11 +124097,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   filePath: 
   fileName: myData.txt
-  JsonFile: {fileID: 0}
   key: 
   textBox: {fileID: 0}
   SaveButton: {fileID: 1725832951}
   LastSavedText: {fileID: 0}
+  JsonFile: {fileID: 4900000, guid: cfa7c98a45d8e1f4eac72b718e005765, type: 3}
 --- !u!1 &2094723239
 GameObject:
   m_ObjectHideFlags: 0
