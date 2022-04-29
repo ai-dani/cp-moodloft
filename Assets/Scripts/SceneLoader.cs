@@ -9,19 +9,7 @@ using UnityEngine.SceneManagement;
 public class SceneLoader : MonoBehaviour
 {
     public Animator transition;
-    public float transiitonTime = 3f;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public float transiitonTime;
 
     public void LoadNextLvl(string name)
     {
@@ -31,8 +19,8 @@ public class SceneLoader : MonoBehaviour
 
     public IEnumerator LoadLvl(string nextScene)
     {
-        transition.SetTrigger("FadeOut");
-        yield return new WaitForSeconds(1);
+        transition.SetTrigger("fadeOut");
+        yield return new WaitForSeconds(1f);
 
         SceneManager.LoadScene(nextScene);
     }
