@@ -16,6 +16,10 @@ public class WaterKey : MonoBehaviour
         saveKey.onClick.AddListener(SaveKey);
         editKey.onClick.AddListener(EditKey);
         unsavedText="                        oz.";
+
+        if(PlayerPrefs.GetFloat("WaterKeyVal") != 0){
+            LoadKey();
+        }
     }
 
     public void SaveKey(){
@@ -26,6 +30,13 @@ public class WaterKey : MonoBehaviour
             keyInput.gameObject.SetActive(false);
             outputText.text = "" + PlayerPrefs.GetFloat("WaterKeyVal") + " oz.";
         }
+    }
+
+    public void LoadKey(){
+            saveKey.gameObject.SetActive(false);
+            editKey.gameObject.SetActive(true);
+            keyInput.gameObject.SetActive(false);
+        outputText.text ="" + PlayerPrefs.GetFloat("WaterKeyVal") + " oz.";
     }
     
     public void EditKey(){
