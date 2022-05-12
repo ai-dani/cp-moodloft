@@ -8,7 +8,9 @@ public class Date : MonoBehaviour
     public TMPro.TMP_Text[] dayOfWeekText; //drag and drop day of the week (7 slots for M-Sun)
     public TMPro.TMP_Text currentDayText;
     public MoodData[] moodButtons;
+    public WaterData[] waterPanels;
     public List<TMPro.TMP_Text> futureDayText;
+
     
     public int currentDayIndex;
     public List<int> futureDaysIndices;
@@ -46,6 +48,7 @@ public class Date : MonoBehaviour
 
              //load the key data values for each mood buttons (hard coded for each mood button)
             moodButtons[i].SetKey(dateKey);
+            waterPanels[i].SetKey(dateKey);
 
              diff++;
          }
