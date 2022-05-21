@@ -13,6 +13,7 @@ public class DialougeUI : MonoBehaviour
     public Button roomButton;
     private int count;
     public TMP_InputField playerName;
+    public Button tutorialItemButton; 
     public GameObject infoArea;
 
 private void Awake()
@@ -48,15 +49,18 @@ private void Awake()
             //Used to make room button avalible after set text appears
             //Checks to see how many dialogue obejcts there are and compares that to the amount of times user clicks on sceen
             if(Input.GetMouseButtonDown(0))
-            {
-                count++;
-                //print(count); test 
-
+            { 
                 // checks to see if count is >= to the amount of objects found in the dialogue. makes button active 
                 if (count >= dialougeObject.Dialogue.Length-1)
                 {
                     roomButton.GetComponent<Button>();
                     roomButton.gameObject.SetActive(true);
+                    //count++;
+                }
+                else
+                {
+                    count++;
+                    //print(count); test 
                 }
             }
         }
